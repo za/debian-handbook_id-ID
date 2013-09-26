@@ -45,7 +45,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Maintenance and Updates: The APT Tools"
-msgstr ""
+msgstr "Mengelola dan Membarukan: Perkakas APT"
 
 #. Tag: para
 #, no-c-format
@@ -85,7 +85,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>BACK TO BASICS</emphasis> <command>gzip</command>, <command>bzip2</command>, <command>LZMA</command> and <command>XZ</command> Compression"
-msgstr ""
+msgstr "<emphasis>KEMBALI KE DASAR-DASAR</emphasis> <command>gzip</command>, <command>bzip2</command>, <command>LZMA</command> and <command>XZ</command> Compression"
 
 #. Tag: indexterm
 #, no-c-format
