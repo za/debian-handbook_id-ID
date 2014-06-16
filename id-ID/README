@@ -1,4 +1,5 @@
 [English]
+<<<<<<< HEAD
 Indonesian Translation
 
 The translation is managed git
@@ -15,10 +16,13 @@ You should also join the debian-handbook-translators mailing list
 If you have any questions, ask them first in the debian-l10n-indonesian
 mailing list. If your question is not answered, then you should ask in the
 debian-handbook-translators mailing list.
+=======
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 
 Translation coordinator: Zaki Akhmad <za@students.ee.itb.ac.id>
 
 Translators:
+<<<<<<< HEAD
  Zaki Akhmad <za@students.ee.itb.ac.id> 
 
 The first target of the translation is to finish translate Chapter 1. 
@@ -122,3 +126,15 @@ Berikut beberapa istilah yang sengaja tidak diterjemahkan:
 * upstream
 * wishlist (severity level)
 * working copy (dalam konteks CVS)
+=======
+ Zaki Akhmad <za@students.ee.itb.ac.id>
+
+---------------------------------------
+
+[Indonesia]
+
+Koordinator penerjemahan: Zaki Akhmad <za@students.ee.itb.ac.id>
+
+Penerjemah: 
+ Zaki Akhmad <za@students.ee.itb.ac.id>
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5

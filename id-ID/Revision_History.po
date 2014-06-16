@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 #
+=======
+# 
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2013-12-30 17:37+0100\n"
 "PO-Revision-Date: 2012-10-31T14:54:18\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: None\n"
 "Language: \n"
+=======
+"POT-Creation-Date: 2012-10-31T14:54:18\n"
+"PO-Revision-Date: 2012-10-31T14:54:18\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,3 +38,7 @@ msgstr ""
 #, no-c-format
 msgid "Hertzog"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5

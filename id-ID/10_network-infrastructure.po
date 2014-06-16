@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 #
+=======
+# 
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2013-12-30 17:37+0100\n"
 "PO-Revision-Date: 2012-10-31T14:54:17\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: None\n"
 "Language: \n"
+=======
+"POT-Creation-Date: 2012-10-31T14:54:17\n"
+"PO-Revision-Date: 2012-10-31T14:54:17\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -165,12 +176,20 @@ msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>private IP address</primary>"
+=======
+msgid "<primary>private, IP address</primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "RFC 1918 defines three ranges of IPv4 addresses not meant to be routed on the Internet but only used in local networks. The first one, <literal>10.0.0.0/8</literal> (see sidebar <xref linkend=\"sidebar.networking-basics\" />), is a class-A range (with 2<superscript>24</superscript> IP addresses). The second one, <literal>172.16.0.0/12</literal>, gathers 16 class-B ranges (<literal>172.16.0.0/16</literal> to <literal>172.31.0.0/16</literal>), each containing 2<superscript>16</superscript> IP addresses. Finally, <literal>192.168.0.0/16</literal> is a class-B range (grouping 256 class-C ranges, <literal>192.168.0.0/24</literal> to <literal>192.168.255.0/24</literal>, with 256 IP addresses each). <ulink type=\"block\" url=\"http://www.faqs.org/rfcs/rfc1918.html\" />"
+=======
+msgid "RFC 1918 defines three ranges of IPv4 addresses not meant to be routed on the Internet but only used in local networks. The first one, <literal>10.0.0.0/8</literal> (see sidebar <xref linkend=\"sidebar.rappels-reseau\" />), is a class-A range (with 2<superscript>24</superscript> IP addresses). The second one, <literal>172.16.0.0/12</literal>, gathers 16 class-B ranges (<literal>172.16.0.0/16</literal> to <literal>172.31.0.0/16</literal>), each containing 2<superscript>16</superscript> IP addresses. Finally, <literal>192.168.0.0/16</literal> is a class-B range (grouping 256 class-C ranges, <literal>192.168.0.0/24</literal> to <literal>192.168.255.0/24</literal>, with 256 IP addresses each). <ulink type=\"block\" url=\"http://www.faqs.org/rfcs/rfc1918.html\" />"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -220,7 +239,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "A concrete application of DNAT is <emphasis>port forwarding</emphasis>. Incoming connections to a given port of a machine are forwarded to a port on another machine. Other solutions may exist for achieving a similar effect, though, especially at the application level with <command>ssh</command> (see <xref linkend=\"sect.ssh-port-forwarding\" />) or <command>redir</command>."
+=======
+msgid "A concrete application of DNAT is <emphasis>port forwarding</emphasis>. Incoming connections to a given port of a machine are forwarded to a port on another machine. Other solutions may exist for achieving a similar effect, though, especially at the application level with <command>ssh</command> (see <xref linkend=\"section.ssh-port-forwarding\" />) or <command>redir</command>."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -230,9 +253,15 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput># </computeroutput><userinput>echo 1 &gt; /proc/sys/net/ipv4/conf/default/forwarding</userinput>\n"
+=======
+msgid "\n"
+"<computeroutput># </computeroutput><userinput>echo 1 &gt; /proc/sys/net/ipv4/conf/default/forwarding</userinput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -247,11 +276,19 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "net.ipv4.conf.default.forwarding = 1\n"
 "net.ipv4.conf.default.rp_filter = 1\n"
 "net.ipv4.tcp_syncookies = 1\n"
+=======
+msgid "\n"
+"net.ipv4.conf.default.forwarding = 1\n"
+"net.ipv4.conf.default.rp_filter = 1\n"
+"net.ipv4.tcp_syncookies = 1\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -401,10 +438,17 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput>$ </computeroutput><userinput>cp -r /usr/share/doc/openvpn/examples/easy-rsa/2.0 pki-falcot\n"
 "</userinput><computeroutput>$ </computeroutput><userinput>cd pki-falcot</userinput>\n"
+=======
+msgid "\n"
+"<computeroutput>$ </computeroutput><userinput>cp -r /usr/share/doc/openvpn/examples/easy-rsa/2.0 pki-falcot\n"
+"</userinput><computeroutput>$ </computeroutput><userinput>cd pki-falcot</userinput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -414,14 +458,22 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput>$ </computeroutput><userinput>vim vars\n"
 "</userinput><computeroutput>$ </computeroutput><userinput>grep KEY_ vars\n"
 "</userinput><computeroutput>export KEY_CONFIG=`$EASY_RSA/whichopensslcnf $EASY_RSA`\n"
 "export KEY_DIR=\"$EASY_RSA/keys\"\n"
 "echo NOTE: If you run ./clean-all, I will be doing a rm -rf on $KEY_DIR\n"
+<<<<<<< HEAD
 "export KEY_SIZE=2048\n"
+=======
+"export KEY_SIZE=1024\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "export KEY_EXPIRE=3650\n"
 "export KEY_COUNTRY=\"FR\"\n"
 "export KEY_PROVINCE=\"Loire\"\n"
@@ -432,6 +484,10 @@ msgid ""
 "</userinput><computeroutput>NOTE: If you run ./clean-all, I will be doing a rm -rf on /home/rhertzog/pki-falcot/keys\n"
 "$ </computeroutput><userinput>./clean-all\n"
 "</userinput>\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -441,10 +497,16 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput>$ </computeroutput><userinput>./build-ca</userinput>\n"
 "<computeroutput>Generating a 2048 bit RSA private key\n"
+=======
+msgid "\n"
+"<computeroutput>$ </computeroutput><userinput>./build-ca</userinput>\n"
+"<computeroutput>Generating a 1024 bit RSA private key\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "..............................................++++++\n"
 ".......................++++++\n"
 "writing new private key to 'ca.key'\n"
@@ -465,6 +527,10 @@ msgid ""
 "Name []:\n"
 "Email Address [admin@falcot.com]:\n"
 "</computeroutput>\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -474,10 +540,16 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput>$ </computeroutput><userinput>./build-key-server vpn.falcot.com\n"
 "</userinput><computeroutput>Generating a 2048 bit RSA private key\n"
+=======
+msgid "\n"
+"<computeroutput>$ </computeroutput><userinput>./build-key-server vpn.falcot.com\n"
+"</userinput><computeroutput>Generating a 1024 bit RSA private key\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "...............++++++\n"
 "...........++++++\n"
 "writing new private key to 'vpn.falcot.com.key'\n"
@@ -520,10 +592,18 @@ msgid ""
 "</userinput><computeroutput>Write out database with 1 new entries\n"
 "Data Base Updated\n"
 "$ </computeroutput><userinput>./build-dh\n"
+<<<<<<< HEAD
 "</userinput><computeroutput>Generating DH parameters, 2048 bit long safe prime, generator 2\n"
 "This is going to take a long time\n"
 "..............+.......+.................................++*++*++*\n"
 "</computeroutput>\n"
+=======
+"</userinput><computeroutput>Generating DH parameters, 1024 bit long safe prime, generator 2\n"
+"This is going to take a long time\n"
+"..............+.......+.................................++*++*++*\n"
+"</computeroutput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -533,10 +613,16 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput>$ </computeroutput><userinput>./build-key JoeSmith\n"
 "</userinput><computeroutput>Generating a 2048 bit RSA private key\n"
+=======
+msgid "\n"
+"<computeroutput>$ </computeroutput><userinput>./build-key JoeSmith\n"
+"</userinput><computeroutput>Generating a 1024 bit RSA private key\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "................++++++\n"
 ".............................++++++\n"
 "writing new private key to 'JoeSmith.key'\n"
@@ -561,7 +647,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Now all certificates have been created, they need to be copied where appropriate: the root certificate's public key (<filename>keys/ca.crt</filename>) will be stored on all machines (both server and clients) as <filename>/etc/ssl/certs/Falcot_CA.crt</filename>. The server's certificate is installed only on the server (<filename>keys/vpn.falcot.com.crt</filename> goes to <filename>/etc/ssl/vpn.falcot.com.crt</filename>, and <filename>keys/vpn.falcot.com.key</filename> goes to <filename>/etc/ssl/private/vpn.falcot.com.key</filename> with restricted permissions so that only the administrator can read it), with the corresponding Diffie-Hellman parameters (<filename>keys/dh2048.pem</filename>) installed to <filename>/etc/openvpn/dh2048.pem</filename>. Client certificates are installed on the corresponding VPN client in a similar fashion."
+=======
+msgid "Now all certificates have been created, they need to be copied where appropriate: the root certificate's public key (<filename>keys/ca.crt</filename>) will be stored on all machines (both server and clients) as <filename>/etc/ssl/certs/Falcot_CA.crt</filename>. The server's certificate is installed only on the server (<filename>keys/vpn.falcot.com.crt</filename> goes to <filename>/etc/ssl/vpn.falcot.com.crt</filename>, and <filename>keys/vpn.falcot.com.key</filename> goes to <filename>/etc/ssl/private/vpn.falcot.com.key</filename> with restricted permissions so that only the administrator can read it), with the corresponding Diffie-Hellman parameters (<filename>keys/dh1024.pem</filename>) installed to <filename>/etc/openvpn/dh1024.pem</filename>. Client certificates are installed on the corresponding VPN client in a similar fashion."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -571,7 +661,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "By default, the OpenVPN initialization script tries starting all virtual private networks defined in <filename>/etc/openvpn/*.conf</filename>. Setting up a VPN server is therefore a matter of storing a corresponding configuration file in this directory. A good starting point is <filename>/usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz</filename>, which leads to a rather standard server. Of course, some parameters need to be adapted: <literal>ca</literal>, <literal>cert</literal>, <literal>key</literal> and <literal>dh</literal> need to describe the selected locations (respectively, <literal>/etc/ssl/certs/Falcot_CA.crt</literal>, <literal>/etc/ssl/vpn.falcot.com.crt</literal>, <literal>/etc/ssl/private/vpn.falcot.com.key</literal> and <literal>/etc/openvpn/dh2048.pem</literal>). The <literal>server 10.8.0.0 255.255.255.0</literal> directive defines the subnet to be used by the VPN; the server uses the first IP address in that range (<literal>10.8.0.1</literal>) and the rest of the addresses are allocated to clients."
+=======
+msgid "By default, the OpenVPN initialization script tries starting all virtual private networks defined in <filename>/etc/openvpn/*.conf</filename>. Setting up a VPN server is therefore a matter of storing a corresponding configuration file in this directory. A good starting point is <filename>/usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz</filename>, which leads to a rather standard server. Of course, some parameters need to be adapted: <literal>ca</literal>, <literal>cert</literal>, <literal>key</literal> and <literal>dh</literal> need to describe the selected locations (respectively, <literal>/etc/ssl/certs/Falcot_CA.crt</literal>, <literal>/etc/ssl/vpn.falcot.com.crt</literal>, <literal>/etc/ssl/private/vpn.falcot.com.key</literal> and <literal>/etc/openvpn/dh1024.pem</literal>). The <literal>server 10.8.0.0 255.255.255.0</literal> directive defines the subnet to be used by the VPN; the server uses the first IP address in that range (<literal>10.8.0.1</literal>) and the rest of the addresses are allocated to clients."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -601,7 +695,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The <emphasis role=\"pkg\">network-manager-openvpn-gnome</emphasis> package contains an extension to Network Manager (see <xref linkend=\"sect.roaming-network-config\" />) that allows managing OpenVPN virtual private networks. This allows every user to configure OpenVPN connections graphically and to control them from the network management icon. <indexterm><primary><emphasis role=\"pkg\">network-manager-openvpn-gnome</emphasis></primary></indexterm>"
+=======
+msgid "The <emphasis role=\"pkg\">network-manager-openvpn-gnome</emphasis> package contains an extension to Network Manager (see <xref linkend=\"sect.config-reseau-itinerante\" />) that allows managing OpenVPN virtual private networks. This allows every user to configure OpenVPN connections graphically and to control them from the network management icon. <indexterm><primary><emphasis role=\"pkg\">network-manager-openvpn-gnome</emphasis></primary></indexterm>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -666,6 +764,7 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "IPsec, despite being the standard in IP VPNs, is rather more involved in its implementation. The IPsec engine itself is integrated in the Linux kernel; the required user-space parts, the control and configuration tools, are provided by the <emphasis role=\"pkg\">ipsec-tools</emphasis> package. In concrete terms, each host's <filename>/etc/ipsec-tools.conf</filename> contains the parameters for <emphasis>IPsec tunnels</emphasis> (or <emphasis>Security Associations</emphasis>, in the IPsec terminology) that the host is concerned with; the <command>/etc/init.d/setkey</command> script provides a way to start and stop a tunnel (each tunnel is a secure link to another host connected to the virtual private network). This file can be built by hand from the documentation provided by the <citerefentry><refentrytitle>setkey</refentrytitle> <manvolnum>8</manvolnum></citerefentry> manual page. However, explicitly writing the parameters for all hosts in a non-trivial set of machines quickly becomes an arduous task, since the number of tunnels grows fast. Installing an IKE daemon (for <emphasis>IPsec Key Exchange</emphasis>) such as <emphasis role=\"pkg\">racoon</emphasis>, <emphasis role=\"pkg\">strongswan</emphasis> or <emphasis role=\"pkg\">openswan</emphasis> makes the process much simpler by bringing administration together at a central point, and more secure by rotating the keys periodically."
 msgstr ""
 
@@ -682,6 +781,9 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><command>setkey</command></primary>"
+=======
+msgid "IPsec, despite being the standard in IP VPNs, is rather more involved in its implementation. The IPsec engine itself is integrated in the Linux kernel; the required user-space parts, the control and configuration tools, are provided by the <emphasis role=\"pkg\">ipsec-tools</emphasis> package. In concrete terms, each host's <filename>/etc/ipsec-tools.conf</filename> contains the parameters for <emphasis>IPsec tunnels</emphasis> (or <emphasis>Security Associations</emphasis>, in the IPsec terminology) that the host is concerned with; <command>/etc/init.d/setkey</command> script provides a way to start and stop a tunnel (each tunnel is a secure link to another host connected to the virtual private network). This file can be built by hand from the documentation provided by the <citerefentry><refentrytitle>setkey</refentrytitle> <manvolnum>8</manvolnum></citerefentry> manual page. However, explicitly writing the parameters for all hosts in a non-trivial set of machines quickly becomes an arduous task, since the number of tunnels grows fast. Installing an IKE daemon (for <emphasis>IPsec Key Exchange</emphasis>) such as <emphasis role=\"pkg\">racoon</emphasis>, <emphasis role=\"pkg\">strongswan</emphasis> or <emphasis role=\"pkg\">openswan</emphasis> makes the process much simpler by bringing administration together at a central point, and more secure by rotating the keys periodically. <indexterm><primary>IKE</primary></indexterm> <indexterm><primary>IPsec</primary><secondary>IPsec Key Exchange</secondary></indexterm> <indexterm><primary>key pair</primary></indexterm> <indexterm><primary><command>setkey</command></primary></indexterm>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -716,7 +818,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The standard mode of operation of IPsec involves data exchanges on UDP port 500 for key exchanges (also on UDP port 4500 in case NAT-T is in use). Moreover, IPsec packets use two dedicated IP protocols that the firewall must let through; reception of these packets is based on their protocol numbers, 50 (ESP) and 51 (AH)."
+=======
+msgid "The standard mode of operation of IPsec involves data exchanges on UDP port 500 for key exchanges (also on UDP port 4500 if case NAT-T is in use). Moreover, IPsec packets use two dedicated IP protocols that the firewall must let through; reception of these packets is based on their protocol numbers, 50 (ESP) and 51 (AH)."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
@@ -796,13 +902,21 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# PPP options used for a PPTP connection\n"
 "lock\n"
 "noauth\n"
 "nobsdcomp\n"
 "nodeflate\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -812,8 +926,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# vpn.falcot.com is the PPTP server\n"
 "pty \"pptp vpn.falcot.com --nolaunchpppd\"\n"
 "# the connection will identify as the \"vpn\" user\n"
@@ -823,6 +941,10 @@ msgid ""
 "require-mppe-128\n"
 "file /etc/ppp/options.pptp\n"
 "ipparam falcot\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -832,13 +954,21 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# Create the route to the Falcot network\n"
 "if [ \"$6\" = \"falcot\" ]; then\n"
 "  # 192.168.0.0/24 is the (remote) Falcot network\n"
 "  route add -net 192.168.0.0 netmask 255.255.255.0 dev $1\n"
 "fi\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -848,13 +978,21 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# Delete the route to the Falcot network\n"
 "if [ \"$6\" = \"falcot\" ]; then\n"
 "  # 192.168.0.0/24 is the (remote) Falcot network\n"
 "  route del -net 192.168.0.0 netmask 255.255.255.0 dev $1\n"
 "fi\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -904,8 +1042,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# TAG: speed\n"
 "#\n"
 "#       Specifies the speed for the PPP daemon to talk at.\n"
@@ -956,6 +1098,10 @@ msgid ""
 "#remoteip 10.0.1.2-100\n"
 "localip 192.168.0.199\n"
 "remoteip 192.168.0.200-250\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -970,8 +1116,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "## turn pppd syslog debugging on\n"
 "#debug\n"
 "\n"
@@ -1001,6 +1151,10 @@ msgid ""
 "nodefaultroute\n"
 "proxyarp\n"
 "lock\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1015,12 +1169,20 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "# Secrets for authentication using CHAP\n"
 "# client        server  secret      IP addresses\n"
 "vpn             pptp    f@Lc3au     *\n"
 "FALCOT\\\\vpn     pptp    f@Lc3au     *\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1095,12 +1257,20 @@ msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>traffic</primary><secondary>control</secondary>"
+=======
+msgid "<primary>traffic control</primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>control of traffic</primary>"
+=======
+msgid "<primary>control, of traffic</primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1140,7 +1310,11 @@ msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>limitation of traffic</primary>"
+=======
+msgid "<primary>limitation, of traffic</primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
@@ -1165,11 +1339,19 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "iface eth0 inet dhcp\n"
 "    up /sbin/wondershaper eth0 500 100\n"
 "    down /sbin/wondershaper remove eth0\n"
+=======
+msgid "\n"
+"iface eth0 inet dhcp\n"
+"    up /sbin/wondershaper eth0 500 100\n"
+"    down /sbin/wondershaper remove eth0\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1239,10 +1421,17 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "iptables -t mangle -A PREROUTING -p tcp --sport ssh -j TOS --set-tos Minimize-Delay\n"
 "iptables -t mangle -A PREROUTING -p tcp --dport ssh -j TOS --set-tos Minimize-Delay\n"
+=======
+msgid "\n"
+"iptables -t mangle -A PREROUTING -p tcp --sport ssh -j TOS --set-tos Minimize-Delay\n"
+"iptables -t mangle -A PREROUTING -p tcp --dport ssh -j TOS --set-tos Minimize-Delay\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1292,7 +1481,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Quagga is a set of daemons cooperating to define the routing tables to be used by the Linux kernel; each routing protocol (most notably BGP, OSPF and RIP) provides its own daemon. The <command>zebra</command> daemon collects information from other daemons and handles static routing tables accordingly. The other daemons are known as <command>bgpd</command>, <command>ospfd</command>, <command>ospf6d</command>, <command>ripd</command>, <command>ripngd</command>, <command>isisd</command>, and <command>babeld</command>."
+=======
+msgid "Quagga is a set of daemons cooperating to define the routing tables to be used by the Linux kernel; each routing protocol (most notably BGP, OSPF and RIP) provides its own daemon. The <command>zebra</command> daemon collects information from other daemons and handles static routing tables accordingly. The other daemons are known as <command>bgpd</command>, <command>ospfd</command>, <command>ospf6d</command>, <command>ripd</command>, and <command>ripngd</command>."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
@@ -1312,6 +1505,7 @@ msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>IS-IS</primary>"
 msgstr ""
 
@@ -1322,6 +1516,8 @@ msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+=======
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgid "<primary><command>bgpd</command></primary>"
 msgstr ""
 
@@ -1345,6 +1541,7 @@ msgstr ""
 msgid "<primary><command>ripngd</command></primary>"
 msgstr ""
 
+<<<<<<< HEAD
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><command>isisd</command></primary>"
@@ -1355,6 +1552,8 @@ msgstr ""
 msgid "<primary><command>babeld</command></primary>"
 msgstr ""
 
+=======
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 #. Tag: para
 #, no-c-format
 msgid "Daemons are enabled by editing the <filename>/etc/quagga/daemons</filename> file and creating the appropriate configuration file in <filename>/etc/quagga/</filename>; this configuration file must be named after the daemon, with a <filename>.conf</filename> extension, and belong to the <literal>quagga</literal> user and the <literal>quaggavty</literal> group, in order for the <filename>/etc/init.d/quagga</filename> script to invoke the daemon."
@@ -1367,7 +1566,11 @@ msgstr ""
 
 #. Tag: title
 #, no-c-format
+<<<<<<< HEAD
 msgid "<emphasis>IN PRACTICE</emphasis> OSPF, BGP or RIP?"
+=======
+msgid "<emphasis>IN PRACTICE</emphasis> OPSF, BGP or RIP?"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1382,7 +1585,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Debian kernels include IPv6 handling in the core kernel (with the exception of some architectures that have it compiled as a module named <literal>ipv6</literal>). Basic tools such as <command>ping</command> and <command>traceroute</command> have their IPv6 equivalents in <command>ping6</command> and <command>traceroute6</command>, available respectively in the <emphasis role=\"pkg\">iputils-ping</emphasis> and <emphasis role=\"pkg\">iputils-tracepath</emphasis> packages."
+=======
+msgid "Debian kernels include IPv6 handling in the core kernel (which was not always the case; the <literal>ipv6</literal> module used to be optional). Basic tools such as <command>ping</command> and <command>traceroute</command> have their IPv6 equivalents in <command>ping6</command> and <command>traceroute6</command>, available respectively in the <emphasis role=\"pkg\">iputils-ping</emphasis> and <emphasis role=\"pkg\">iputils-tracepath</emphasis> packages."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
@@ -1412,20 +1619,33 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "iface eth0 inet6 static\n"
 "    address 2001:db8:1234:5::1:1\n"
 "    netmask 64\n"
 "    # Disabling auto-configuration\n"
+<<<<<<< HEAD
 "    # autoconf 0\n"
 "    # The router is auto-configured and has no fixed address\n"
 "    # (accept_ra 1). If it had:\n"
 "    # gateway 2001:db8:1234:5::1\n"
+=======
+"    # up echo 0 &gt;/proc/sys/net/ipv6/conf/all/autoconf\n"
+"    # The router is auto-configured and has no fixed address\n"
+"    # (/proc/sys/net/ipv6/conf/all/accept_ra). If it had:\n"
+"    # gateway 2001:db8:1234:5::1\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "IPv6 subnets usually have a netmask of 64 bits. This means that 2<superscript>64</superscript> distinct addresses exist within the subnet. This allows Stateless Address Autoconfiguration (<acronym>SLAAC</acronym>) to pick an address based on the network interface's MAC address. By default, if <acronym>SLAAC</acronym> is activated in your network and IPv6 on your computer, the kernel will automatically find IPv6 routers and configure the network interfaces."
 msgstr ""
 
@@ -1451,10 +1671,38 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TIP</emphasis> Programs built with IPv6"
+=======
+msgid "If a native IPv6 connection is not available, the fallback method is to use a tunnel over IPv4. Freenet6 is one (free) provider of such tunnels: <ulink type=\"block\" url=\"http://www.freenet6.net/\" />"
+msgstr ""
+
+#. Tag: indexterm
+#, no-c-format
+msgid "<primary>Freenet6</primary>"
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+msgid "To use a Freenet6 tunnel, you need to register on the website, then install the <emphasis role=\"pkg\">tspc</emphasis> package and configure the tunnel. This requires editing the <filename>/etc/tsp/tspc.conf</filename> file: <literal>userid</literal> and <literal>password</literal> lines received by e-mail should be added, and <literal>server</literal> should be replaced with <literal>broker.freenet6.net</literal>."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "IPv6 connectivity is proposed to all machines on a local network by adding the three following directives to the <filename>/etc/tsp/tspc.conf</filename> file (assuming the local network is connected to the eth0 interface):"
+msgstr ""
+
+#. Tag: programlisting
+#, no-c-format
+msgid "\n"
+"host_type=router\n"
+"prefix_len=48\n"
+"if_prefix=eth0\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+<<<<<<< HEAD
 msgid "Many pieces of software need to be adapted to handle IPv6. Most of the packages in Debian have been adapted already, but not all. If your favorite package does not work with IPv6 yet, you can ask for help on the <emphasis>debian-ipv6</emphasis> mailing-list. They might know about an IPv6-aware replacement and could file a bug to get the issue properly tracked. <ulink type=\"block\" url=\"http://lists.debian.org/debian-ipv6/\" />"
 msgstr ""
 
@@ -1466,45 +1714,79 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>firewall</primary><secondary>IPv6</secondary>"
-msgstr ""
-
-#. Tag: indexterm
-#, no-c-format
-msgid "<primary><command>ip6tables</command></primary>"
+=======
+msgid "The machine then becomes the access router for a subnet with a 48-bit prefix. Once the tunnel is aware of this change, the local network must be told about it; this implies installing the <command>radvd</command> daemon (from the similarly-named package). This IPv6 configuration daemon has a role similar to <command>dhcpd</command> in the IPv4 world."
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+msgid "The <filename>/etc/radvd.conf</filename> configuration file must then be created (see <filename>/usr/share/doc/radvd/examples/simple-radvd.conf</filename> as a starting point). In our case, the only required change is the prefix, which needs to be replaced with the one provided by Freenet6; it can be found in the output of the <command>ifconfig</command> command, in the block concerning the <literal>tun</literal> interface."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
+msgstr ""
+
+#. Tag: indexterm
+#, no-c-format
+<<<<<<< HEAD
+msgid "<primary><command>ip6tables</command></primary>"
+=======
+msgid "<primary><command>radvd</command></primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+<<<<<<< HEAD
 msgid "IPv6 connections can be restricted, in the same fashion as for IPv4: the standard Debian kernels include an adaptation of <emphasis>netfilter</emphasis> for IPv6. This IPv6-enabled <emphasis>netfilter</emphasis> is configured in a similar fashion to its IPv4 counterpart, except the program to use is <command>ip6tables</command> instead of <command>iptables</command>."
 msgstr ""
 
 #. Tag: title
 #, no-c-format
 msgid "Tunneling"
+=======
+msgid "Then run <command>/etc/init.d/tspc restart</command> and <command>/etc/init.d/radvd start</command>, and the IPv6 network should work."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
 #, no-c-format
+<<<<<<< HEAD
 msgid "<emphasis>CAUTION</emphasis> IPv6 tunneling and firewalls"
+=======
+msgid "<emphasis>TIP</emphasis> Programs built with IPv6"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "IPv6 tunneling over IPv4 (as opposed to native IPv6) requires the firewall to accept the traffic, which uses IPv4 protocol number 41."
 msgstr ""
 
 #. Tag: para
 #, no-c-format
 msgid "If a native IPv6 connection is not available, the fallback method is to use a tunnel over IPv4. Gogo6 is one (free) provider of such tunnels: <ulink type=\"block\" url=\"http://www.gogo6.com/freenet6/tunnelbroker\" />"
+=======
+msgid "Many pieces of software need to be adapted to handle IPv6. Most of the packages in Debian <emphasis role=\"distribution\">Squeeze</emphasis> have been adapted already, but not all. A few volunteers had previously created a package archive dedicated to software specially rebuilt for IPv6; this archive was decommissioned in March 2007, both for lack of time and for lack of interest (since most of the patches have been integrated into the official packages). If your favorite package does not work with IPv6 yet, help can be found on the <emphasis>debian-ipv6</emphasis> mailing-list. <ulink type=\"block\" url=\"http://lists.debian.org/debian-ipv6/\" />"
+msgstr ""
+
+#. Tag: title
+#, no-c-format
+msgid "<emphasis>CAUTION</emphasis> IPv6 and firewalls"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>Freenet6</primary>"
+=======
+msgid "<primary>IPv6 firewall</primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary>Gogo6</primary>"
 msgstr ""
 
@@ -1535,16 +1817,27 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "The <filename>/etc/radvd.conf</filename> configuration file must then be created (see <filename>/usr/share/doc/radvd/examples/simple-radvd.conf</filename> as a starting point). In our case, the only required change is the prefix, which needs to be replaced with the one provided by Freenet6; it can be found in the output of the <command>ifconfig</command> command, in the block concerning the <literal>tun</literal> interface."
+=======
+msgid "<primary>firewall</primary><secondary>IPv6</secondary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: indexterm
 #, no-c-format
+<<<<<<< HEAD
 msgid "<primary><command>radvd</command></primary>"
+=======
+msgid "<primary><command>ip6tables</command></primary>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "Then run <command>/etc/init.d/gogoc restart</command> and <command>/etc/init.d/radvd start</command>, and the IPv6 network should work."
+=======
+msgid "IPv6 tunneling over IPv4 (as opposed to native IPv6) requires the firewall to accept the traffic, which uses IPv4 protocol number 41. IPv6 connections can be restricted, in the same fashion as for IPv4: the standard Debian kernels include an adaptation of <emphasis>netfilter</emphasis> for IPv6. This IPv6-enabled <emphasis>netfilter</emphasis> is configured in a similar fashion to its IPv4 counterpart, except the program to use is <command>ip6tables</command> instead of <command>iptables</command>."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1564,7 +1857,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "The <emphasis>Domain Name Service</emphasis> (DNS) is a fundamental component of the Internet: it maps host names to IP addresses (and vice-versa), which allows the use of <literal>www.debian.org</literal> instead of <literal>5.153.231.4</literal> or <literal>2001:41c8:1000:21::21:4</literal>."
+=======
+msgid "The <emphasis>Domain Name Service</emphasis> (DNS) is a fundamental component of the Internet: it maps host names to IP addresses (and vice-versa), which allows the use of <literal>www.debian.org</literal> instead of <literal>82.195.75.97</literal>."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1617,6 +1914,7 @@ msgstr ""
 msgid "<literal>NS</literal>: maps a name to a name server. Each domain must have at least one NS record. These records point at a DNS server that can answer queries concerning this domain; they usually point at the primary and secondary servers for the domain. These records also allow DNS delegation; for instance, the <literal>falcot.com</literal> zone can include an NS record for <literal>internal.falcot.com</literal>, which means that the <literal>internal.falcot.com</literal> zone is handled by another server. Of course, this server must declare an <literal>internal.falcot.com</literal> zone. <indexterm><primary>NS, DNS record</primary></indexterm>"
 msgstr ""
 
+<<<<<<< HEAD
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>record</primary><secondary>DNS</secondary>"
@@ -1625,6 +1923,11 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>DNS record</primary>"
+=======
+#. Tag: para
+#, no-c-format
+msgid "<indexterm><primary>record</primary><secondary>DNS</secondary></indexterm> <indexterm><primary>DNS record</primary></indexterm>"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -1702,6 +2005,7 @@ msgstr ""
 msgid "<primary><literal>in-addr.arpa</literal></primary>"
 msgstr ""
 
+<<<<<<< HEAD
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><literal>ip6.arpa</literal></primary>"
@@ -1712,16 +2016,21 @@ msgstr ""
 msgid "<primary>nibble format</primary>"
 msgstr ""
 
+=======
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 #. Tag: para
 #, no-c-format
 msgid "Reverse zones have a particular name. The zone covering the <literal>192.168.0.0/16</literal> network need to be named <literal>168.192.in-addr.arpa</literal>: the IP address components are reversed, and followed by the <emphasis>in-addr.arpa</emphasis> suffix."
 msgstr ""
 
+<<<<<<< HEAD
 #. Tag: para
 #, no-c-format
 msgid "For IPv6 networks, the suffix is <literal>ip6.arpa</literal> and the IP address components which are reversed are each character in the full hexadecimal representation of the IP address. As such, the <literal>2001:0bc8:31a0::/48</literal> network would use a zone named <literal>0.a.1.3.8.c.b.0.1.0.0.2.ip6.arpa</literal>."
 msgstr ""
 
+=======
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TIP</emphasis> Testing the DNS server"
@@ -1759,8 +2068,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "zone \"falcot.com\" {\n"
 "        type master;\n"
 "        file \"/etc/bind/db.falcot.com\";\n"
@@ -1782,6 +2095,10 @@ msgid ""
 "        file \"/etc/bind/db.192.168\";\n"
 "        allow-query { 192.168.0.0/16; };\n"
 "};\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1791,8 +2108,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "; falcot.com Zone \n"
+=======
+msgid "; falcot.com Zone \n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "; admin.falcot.com. =&gt; zone contact: admin@falcot.com\n"
 "$TTL    604800\n"
 "@       IN      SOA     falcot.com. admin.falcot.com. (\n"
@@ -1808,7 +2129,11 @@ msgid ""
 "@       IN      NS      ns\n"
 "@       IN      NS      ns0.xname.org.\n"
 "\n"
+<<<<<<< HEAD
 "internal IN      NS      192.168.0.2\n"
+=======
+"interne IN      NS      192.168.0.2\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "\n"
 "@       IN      A       212.94.201.10\n"
 "@       IN      MX      5 mail\n"
@@ -1820,6 +2145,10 @@ msgid ""
 "www     IN      A       212.94.201.11\n"
 "\n"
 "dns     IN      CNAME   ns\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1839,17 +2168,25 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "; Reverse zone for 192.168.0.0/16\n"
 "; admin.falcot.com. =&gt; zone contact: admin@falcot.com\n"
 "$TTL    604800\n"
 "@       IN      SOA     ns.internal.falcot.com. admin.falcot.com. (\n"
+=======
+msgid "; Reverse zone for 192.168.0.0/16\n"
+"; admin.falcot.com. =&gt; zone contact: admin@falcot.com\n"
+"$TTL    604800\n"
+"@       IN      SOA     ns.interne.falcot.com. admin.falcot.com. (\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "                        20040121        ; Serial\n"
 "                         604800         ; Refresh\n"
 "                          86400         ; Retry\n"
 "                        2419200         ; Expire\n"
 "                         604800 )       ; Negative Cache TTL\n"
 "\n"
+<<<<<<< HEAD
 "        IN      NS      ns.internal.falcot.com.\n"
 "\n"
 "; 192.168.0.1 -&gt; arrakis\n"
@@ -1859,6 +2196,18 @@ msgid ""
 "\n"
 "; 192.168.3.1 -&gt; pau\n"
 "1.3     IN      PTR     pau.internal.falcot.com.\n"
+=======
+"        IN      NS      ns.interne.falcot.com.\n"
+"\n"
+"; 192.168.0.1 -&gt; arrakis\n"
+"1.0     IN      PTR     arrakis.interne.falcot.com.\n"
+"; 192.168.0.2 -&gt; neptune\n"
+"2.0     IN      PTR     neptune.interne.falcot.com.\n"
+"\n"
+"; 192.168.3.1 -&gt; pau\n"
+"1.3     IN      PTR     pau.interne.falcot.com.\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1908,8 +2257,12 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "#\n"
 "# Sample configuration file for ISC dhcpd for Debian\n"
 "#\n"
@@ -1942,6 +2295,10 @@ msgid ""
 "    range 192.168.0.128 192.168.0.254;\n"
 "    ddns-domainname \"internal.falcot.com\";\n"
 "}\n"
+<<<<<<< HEAD
+=======
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -1966,9 +2323,15 @@ msgstr ""
 
 #. Tag: programlisting
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "allow-update { 127.0.0.1 192.168.0.1 212.94.201.10 !any };\n"
+=======
+msgid "\n"
+"allow-update { 127.0.0.1 192.168.0.1 212.94.201.10 !any };\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
@@ -2048,8 +2411,12 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
+=======
+msgid "\n"
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 "<computeroutput># </computeroutput><userinput>netstat -tupan</userinput>\n"
 "<computeroutput>Active Internet connections (servers and established)\n"
 "Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name\n"
@@ -2097,6 +2464,7 @@ msgstr ""
 
 #. Tag: screen
 #, no-c-format
+<<<<<<< HEAD
 msgid ""
 "\n"
 "<computeroutput># </computeroutput><userinput>nmap mirwiz</userinput>\n"
@@ -2158,11 +2526,68 @@ msgid ""
 "OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .\n"
 "Nmap done: 1 IP address (1 host up) scanned in 48.20 seconds\n"
 "</computeroutput>\n"
+=======
+msgid "\n"
+"<computeroutput># </computeroutput><userinput>nmap scouzmir</userinput>\n"
+"<computeroutput>\n"
+"Starting Nmap 5.00 ( http://nmap.org ) at 2010-10-12 18:52 CEST\n"
+"Interesting ports on 192.168.1.101:\n"
+"Not shown: 998 closed ports\n"
+"PORT    STATE SERVICE\n"
+"22/tcp  open  ssh\n"
+"111/tcp open  rpcbind\n"
+"MAC Address: 52:54:00:99:01:01 (QEMU Virtual NIC)\n"
+"\n"
+"Nmap done: 1 IP address (1 host up) scanned in 2.11 seconds\n"
+"# </computeroutput><userinput>nmap -A localhost</userinput>\n"
+"<computeroutput>\n"
+"Starting Nmap 5.00 ( http://nmap.org ) at 2010-10-12 18:59 CEST\n"
+"Warning: Hostname localhost resolves to 2 IPs. Using 127.0.0.1.\n"
+"Interesting ports on localhost (127.0.0.1):\n"
+"Not shown: 997 closed ports\n"
+"PORT    STATE SERVICE VERSION\n"
+"22/tcp  open  ssh     OpenSSH 5.5p1 Debian 4 (protocol 2.0)\n"
+"|  ssh-hostkey: 1024 af:07:60:17:16:64:6f:ee:c4:ca:b5:64:1e:4a:4c:22 (DSA)\n"
+"|_ 2048 25:b0:aa:6b:11:5a:56:b6:8d:2d:ed:b3:16:17:96:33 (RSA)\n"
+"25/tcp  open  smtp    Exim smtpd 4.72\n"
+"|  smtp-commands: EHLO scouzmir.internal.placard.fr.eu.org Hello localhost [127.0.0.1], SIZE 52428800, PIPELINING, HELP\n"
+"|_ HELP Commands supported: AUTH HELO EHLO MAIL RCPT DATA NOOP QUIT RSET HELP\n"
+"111/tcp open  rpcbind\n"
+"|  rpcinfo:  \n"
+"|  100000  2    111/udp  rpcbind  \n"
+"|  100024  1  53273/udp  status   \n"
+"|  100000  2    111/tcp  rpcbind  \n"
+"|_ 100024  1  41127/tcp  status   \n"
+"No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).\n"
+"TCP/IP fingerprint:\n"
+"OS:SCAN(V=5.00%D=10/12%OT=22%CT=1%CU=34421%PV=N%DS=0%G=Y%TM=4CB4941A%P=i686\n"
+"OS:-pc-linux-gnu)SEQ(SP=BF%GCD=1%ISR=CC%TI=Z%CI=Z%II=I%TS=8)OPS(O1=M400CST1\n"
+"OS:1NW4%O2=M400CST11NW4%O3=M400CNNT11NW4%O4=M400CST11NW4%O5=M400CST11NW4%O6\n"
+"OS:=M400CST11)WIN(W1=8000%W2=8000%W3=8000%W4=8000%W5=8000%W6=8000)ECN(R=Y%D\n"
+"OS:F=Y%T=40%W=8018%O=M400CNNSNW4%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=\n"
+"OS:0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=8000%S=O%A=S+%F=AS%O=M400CST11NW4%RD=0%Q=\n"
+"OS:)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=\n"
+"OS:S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF\n"
+"OS:=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=\n"
+"OS:G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)\n"
+"\n"
+"Network Distance: 0 hops\n"
+"Service Info: Host: scouzmir.internal.placard.fr.eu.org; OS: Linux\n"
+"\n"
+"OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .\n"
+"Nmap done: 1 IP address (1 host up) scanned in 21.32 seconds\n"
+"</computeroutput>\n"
+""
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "As expected, the SSH and Exim4 applications are listed. Note that not all applications listen on all IP addresses; since Exim4 is only accessible on the <literal>lo</literal> loopback interface, it only appears during an analysis of <literal>localhost</literal> and not when scanning <literal>mirwiz</literal> (which maps to the <literal>eth0</literal> interface on the same machine)."
+=======
+msgid "As expected, the SSH and Exim4 applications are listed. Note that not all applications listen on all IP addresses; since Exim4 is only accessible on the <literal>lo</literal> loopback interface, it only appears during an analysis of <literal>localhost</literal> and not when scanning <literal>scouzmir</literal> (which maps to the <literal>eth0</literal> interface on the same machine)."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -2202,7 +2627,11 @@ msgstr ""
 
 #. Tag: para
 #, no-c-format
+<<<<<<< HEAD
 msgid "In our example, the packets traveling over SSH are filtered out (with the <literal>!tcp.port == 22</literal> filter). The packet currently displayed was developed at the HTTP layer."
+=======
+msgid "In our example, the packets traveling over SSH are filtered out (with the <literal>!tcp.port == 22</literal> filter). The packet currently displayed was developed at the TCP and HTTP layers."
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgstr ""
 
 #. Tag: title
@@ -2239,3 +2668,7 @@ msgstr ""
 #, no-c-format
 msgid "<command>wireshark</command> seems to be relatively young; however, it is only the new name for a software application previously known as <command>ethereal</command>. When its main developer left the company where he was employed, he was not able to arrange for the transfer of the registered trademark. As an alternative he went for a name change; only the name and the icons for the software actually changed."
 msgstr ""
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
