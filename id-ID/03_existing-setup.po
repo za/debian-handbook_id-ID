@@ -1,12 +1,13 @@
 # 
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Samsul Ma'arif <mail@samsul.web.id>, 2014.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-10-31T14:54:17\n"
 "PO-Revision-Date: 2012-10-31T14:54:17\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Samsul Ma'arif <mail@samsul.web.id>\n"
 "Language-Team: None\n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
@@ -15,22 +16,22 @@ msgstr ""
 #. Tag: keyword
 #, no-c-format
 msgid "Existing Setup"
-msgstr ""
+msgstr "Setingan yang Ada"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Reuse"
-msgstr ""
+msgstr "Penggunaan Kembali"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Migration"
-msgstr ""
+msgstr "Migrasi"
 
 #. Tag: title
 #, no-c-format
 msgid "Analyzing the Existing Setup and Migrating"
-msgstr ""
+msgstr "Menganalisa Setingan yang Ada dan Memigrasikannya"
 
 #. Tag: para
 #, no-c-format
