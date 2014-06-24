@@ -54,13 +54,13 @@ msgstr "Memersembahkan Studi Kasus"
 
 #. Tag: para
 #, no-c-format
-msgid "In the context of this book, you are the system administrator of a growing small business. The time has come for you to redefine the information systems master plan for the coming year in collaboration with your directors. You choose to progressively migrate to Debian, both for practical and economical reasons. Let's see into more detail what's in store for you…"
-msgstr ""
+msgid "You are the system administrator of a growing small business. In collaboration with your directors, you come to redefine the information systems master plan for the coming year, and you choose to progressively migrate to Debian for reasons as much practical as economic. Let's see into more detail what's ahead of you..."
+msgstr "Anda adalah administrator sistem bisnis kecil yang bertumbuh. Dalam kolaborasi dengan direksi Anda, Anda mendefinisikan ulang rencana induk sistem informasi untuk tahun mendatang, dan Anda memilih untuk memigrasikan sistem secara progresif ke Debian dengan alasan yang lebih praktis secara ekonomi. Mari lihat lebih mendetail apa yang ada pada Anda..."
 
 #. Tag: para
 #, no-c-format
-msgid "We have envisioned this case study to approach all modern information system services currently used in a medium sized company. After reading this book, you will have all of the elements necessary to install Debian on your servers and fly on your own wings. You will also learn how to efficiently find information in the event of difficulties."
-msgstr ""
+msgid "We have envisioned this case study to approach all modern information system services currently used in a medium sized company. After reading this book, you will have all of the elements necessary to install Debian on your servers and fly on your own wings. You will also learn how to effectively find information in the event of difficulties."
+msgstr "Kami telah membayang studi kasus ini mendekati seluruh layanan sistem informasi modern yang saat ini digunakan di perusaan menengah. Setelah membaca buku ini, Anda akan memiliki seluruh elemen yang diperlukan untuk menginstall Debian di server Anda dan terbang dengan sayap Anda sendiri. Anda juga akan belajar bagaimana menemukan informasi secara efektif pada saat kesulitan."
 
 #. Tag: title
 #, no-c-format
@@ -319,13 +319,18 @@ msgstr "Akhirnya, Debian tersedia pada banyak arsitektur, termasuk Sparc; yang a
 
 #. Tag: para
 #, no-c-format
-msgid "Once Debian has been chosen, the matter of which version to use must be decided. Let us see why the administrators have picked Debian Wheezy."
-msgstr "Sekali Debian telah dipilih, masalah versi yang akan digunakan harus ditentukan. Mari kita lihat mengapa administrator memilih Debian Wheezy."
+msgid "Once Debian has been chosen, the matter of which version to use must be decided. Let us see why the administrators have picked Debian Squeeze."
+msgstr "Sekali Debian telah dipilih, masalah versi yang akan digunakan harus ditentukan. Mari kita lihat mengapa administrator memilih Debian Squeeze."
 
 #. Tag: title
 #, no-c-format
-msgid "Why Debian Wheezy?"
-msgstr "Mengapa Debian Wheezy?"
+msgid "Why Debian Squeeze?"
+msgstr "Mengapa Debian Squeeze?"
+
+#. Tag: para
+#, no-c-format
+msgid "At the time of this writing, Debian Squeeze was still the “<emphasis role=\"distribution\">Testing</emphasis>” distribution, but now, while you are reading, it will be the new “<emphasis role=\"distribution\">Stable</emphasis>” version of Debian. This is also the reason for which we speak of “Debian Squeeze”, rather than “Debian 6.0”, since the version number is not used prior to its effective release."
+msgstr "Ketika ini ditulis, Debian Squeeze masih distribusi "<emphasis role=\"distribution\">Testng</emphasis>, namun kini, ketika Anda membaca, akan menjadi versi Debian "<emphasis role=\"distribution\">Stable.</emphasis>" Ini alasan mengapa kita berbicara "Debian Squeeze", ketimbang "Debian 6.0", karena nomor versi tidak digunakan berdasarkan rilis efektifnya."
 
 #. Tag: para
 #, no-c-format
@@ -334,5 +339,20 @@ msgstr "Setiap rilis Debian dimulai kehidupannya mengubah disto secara berkelanj
 
 #. Tag: para
 #, no-c-format
-msgid "The choice of Debian Wheezy is well justified based on the fact that any administrator concerned about the quality of their servers will naturally gravitate towards the stable version of Debian. Even if the previous stable release might still be supported for a while, Falcot administrators aren't considering it because its support period will not last long enough and because the latest version brings new interesting features that they care about."
-msgstr "Memilih Debian Wheezy cukup benar berdasarkan kenyataan bahwa perhatian administrator tentang kualitas server mereka alaminya akan menuju ke arah versi stabil dari Debian. Meskipun jika rilis stabil sebelumnya mungkin masih didukung untuk beberapa waktu, administrator Falcot tidak memertimbangkannya karena periode dukungan tidak akan cukup lama karena versi terkini membawa fitur yang menarik"
+msgid "You may note a few minor differences between what is written here and what you observe in practice, even though we have limited these discrepancies as much as possible."
+msgstr "Anda mungkin mencatat ada perbedaan kecil antara apa yang tertulis dan apa yang Anda temuka ketika berlatih, meskipun kami membatasi perbedaan sebanyak mungkin."
+
+#. Tag: title
+#, no-c-format
+msgid "<emphasis>PARTICIPATE</emphasis>"
+msgstr "<emphasis>PARTISIPASI</emphasis>"
+
+#. Tag: para
+#, no-c-format
+msgid "Do not hesitate to indicate any error herein to us by e-mail; You can reach Raphaël at <email>hertzog@debian.org</email>, and Roland at <email>lolando@debian.org</email>."
+msgstr "Jangan ragu untuk menunjukkan kesalahan di sini untuk kami melalui e-mail; Anda dapat menghubungi Raphael melalui email <email>hertzog@debian.org</email>, dan Roland di <email>lolando@debian.org</email>."
+
+#. Tag: para
+#, no-c-format
+msgid "The choice of Debian Squeeze is well justified based on the fact that any administrator concerned about the quality of their servers will naturally gravitate towards the stable version of Debian. Even if the previous stable release might still be supported for a while, Falcot administrators aren't considering it because its support period will not last long enough and because the latest version brings new interesting features that they care about."
+msgstr "Memilih Debian Squeeze cukup benar berdasarkan kenyataan bahwa perhatian administrator tentang kualitas server mereka alaminya akan menuju ke arah versi stabil dari Debian. Meskipun jika rilis stabil sebelumnya mungkin masih didukung untuk beberapa waktu, administrator Falcot tidak memertimbangkannya karena periode dukungan tidak akan cukup lama karena versi terkini membawa fitur yang menarik"

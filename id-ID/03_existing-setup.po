@@ -1,12 +1,13 @@
 # 
 # AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Samsul Ma'arif <mail@samsul.web.id>, 2014.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-10-31T14:54:17\n"
 "PO-Revision-Date: 2012-10-31T14:54:17\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Samsul Ma'arif <mail@samsul.web.id>\n"
 "Language-Team: None\n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
@@ -15,132 +16,132 @@ msgstr ""
 #. Tag: keyword
 #, no-c-format
 msgid "Existing Setup"
-msgstr ""
+msgstr "Setingan yang Ada"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Reuse"
-msgstr ""
+msgstr "Penggunaan Kembali"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Migration"
-msgstr ""
+msgstr "Migrasi"
 
 #. Tag: title
 #, no-c-format
 msgid "Analyzing the Existing Setup and Migrating"
-msgstr ""
+msgstr "Menganalisa Setingan yang Ada dan Memigrasikannya"
 
 #. Tag: para
 #, no-c-format
 msgid "Any computer system overhaul should take the existing system into account. This allows reuse of available resources as much as possible and guarantees interoperability of the various elements comprising the system. This study will introduce a generic framework to follow in any migration of a computing infrastructure to Linux."
-msgstr ""
+msgstr "Beberapa kerusakan sistem komputer harus memerhatikan sistem yang ada. Hal ini mengizinkan penggunaan kembali sumberdaya yang tersesia sebanyak mungkin dan menjamin interoperabilitas dari berbagai elemen perbandingan sistem. Studi ini akan mengenalkan kerangka umum yang diikuti dalam migrasi infrastruktur komputer ke Linux."
 
 #. Tag: title
 #, no-c-format
 msgid "Coexistence in Heterogeneous Environments"
-msgstr ""
+msgstr "Berdampingan dalam Lingkungan yang Heterogen"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>environment</primary><secondary>heterogeneous environment</secondary>"
-msgstr ""
+msgstr "<primary>lingkungan</primary><secondary>lingkungan yang heterogen</secondary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Debian integrates very well in all types of existing environments and plays well with any other operating system. This near-perfect harmony comes from market pressure which demands that software publishers develop programs that follow standards. Compliance with standards allow administrators to switch out programs: clients or servers, whether free or not."
-msgstr ""
+msgstr "Debian sangat baik dalam mengintegrasikan berbagai lingkungan yang ada dan bermain dengan baik dengan beberapa sistem operasi lain. Harmoni yang mendekati sempurna ini datang dari tekanan pasar yang menuntut bahwa penerbit perangkat lunak mengembangkan program yang mengikuti standar. Penyesuaian dengan standar mengizinkan administrator untuk berganti program: klien atau server, entah itu bebas (free) atau tidak."
 
 #. Tag: title
 #, no-c-format
 msgid "Integration with Windows Machines"
-msgstr ""
+msgstr "Integrasi dengan Mesin Windows"
 
 #. Tag: para
 #, no-c-format
 msgid "Samba's SMB/CIFS support ensures excellent communication within a Windows context. It shares files and print queues to Windows clients and includes software that allow a Linux machine to use resources available on Windows servers."
-msgstr ""
+msgstr "Dukngan SMB/CIFS Samba memastikan komunikasi sempurna dengan konteks Windows. Berbagi berkas dan antrian cetak pada klien Windows dan termasuk perangkat lunak yang mengizinkan mesin Linux untuk menggunakan sumberdaya yang ada pada server Windows."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> Samba"
-msgstr ""
+msgstr "<emphasis>ALAT</emphasis> Samba"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Samba</primary>"
-msgstr ""
+msgstr "<primary>Samba</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Samba version 2 behaves like a Windows NT server (authentication, files, print queues, downloading printer drivers, DFS, etc.) Version 3 works with Active Directory, brings interoperability with NT4 domain controllers, and supports RPCs (Remote Procedure Calls). Version 4 is a rewrite (still experimental), the purpose of which is to provide functionality of a domain controller compatible with Active Directory."
-msgstr ""
+msgstr "Samba versi 2 berperilaku seperti server Windows NT (otentikasi, berkas, antrian cetak, mengunduh penggerak printer, DFS, dll.) Versi 3 bekerja dengan Active Directory, membawa interoperabilitas dengan domain kontroller NT4, dan mendukung RPC (Remote Procedure Calls), Versi 4 ialah penulisan ulang (masin eksperimental), tujuannya menyediakan fungsionalitas domain kontroler yang cocok dengan Active Directory."
 
 #. Tag: title
 #, no-c-format
 msgid "Integration with Mac OS machines"
-msgstr ""
+msgstr "Integrasi dengan mesin Mac OS"
 
 #. Tag: para
 #, no-c-format
 msgid "Netatalk is a program which uses the Appletalk protocol (running on a Linux kernel) and allows Debian to interface with a Mac OS network. It ensures the operation of the file server and print queues, as well as time server (clock synchronization). Its router function allows interconnection with Appletalk networks."
-msgstr ""
+msgstr "Nettalk ialah program yang menggunakan protokol Appletalk (berjalan di kernel Linux) dan mengizinkan Debian untuk berhubungan dengan jaringan Mac OS. Memastikan operasi file server dan print queues, sebagaimana juga time server (sinkronisasi waktu). Fungsi penghala mengizinkan interkoneksi dengan jaringan Appletalk."
 
 #. Tag: title
 #, no-c-format
 msgid "Integration with Other Linux/Unix Machines"
-msgstr ""
+msgstr "Integrasi denggan Mesin Linux/Unix lainnya"
 
 #. Tag: para
 #, no-c-format
 msgid "Finally, NFS and NIS, both included, guarantee interaction with Unix systems. NFS ensures file server functionality, while NIS creates user directories. The BSD printing layer, used by most Unix systems, also allows sharing of print queues."
-msgstr ""
+msgstr "Akhirnya, NFS dan NIS, keduanya termasuk, jaminan interaksi dengan sistem Unix. NFS memastikan fungsionalitas file server, sedangkan NIS membuat direktori pengguna. Lapisan cetak BSD, digunakan oleh kebanyak sistem Unix, juga mengizinkan berbagi antrian cetak."
 
 #. Tag: title
 #, no-c-format
 msgid "Coexistence of Debian with MacOS, Windows and Unix systems"
-msgstr ""
+msgstr "Debian Berdampingan dengan MacOS, Windows, dan sistem Unix"
 
 #. Tag: title
 #, no-c-format
 msgid "How To Migrate"
-msgstr ""
+msgstr "Bagaimana Bermigrasi"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>migration</primary>"
-msgstr ""
+msgstr "<primary>migrasi</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "In order to guarantee continuity of the services, each computer migration must be planned and executed according to the plan. Whatever the operating system used, this principle never changes."
-msgstr ""
+msgstr "Untuk menjamin keberlanjutan layanan, setiap migrasi komputer harus direncanakan dan dieksekusi berdasarkan rencana. Apapun sistem operasi yang digunakan, prinsip ini tak pernah berubah."
 
 #. Tag: title
 #, no-c-format
 msgid "Survey and Identify Services"
-msgstr ""
+msgstr "Survey dan Mengidentifikasi Layanan"
 
 #. Tag: para
 #, no-c-format
 msgid "As simple as it seems, this step is essential. A serious administrator truly knows the principal roles of each server, but such roles can change, and sometimes experienced users may have installed “wild” services. Knowing that they exist will at least allow you to decide what to do with them, rather than delete them haphazardly."
-msgstr ""
+msgstr "Sesederhana seperti terlihat, langkah ini penting. Seorang administrator benar-benar tahu aturan prinsip masing-masing server, namun aturan dapat berubah, dan kadang pengguna berpengalaman mungkin telah menginstall service yang "liar". Mengetahui hal tersebut setidaknya akan mengizinkan Anda untuk memutuskan apa yang akan dilakukan dengannya, daripada menghapusnya semena-mena."
 
 #. Tag: para
 #, no-c-format
 msgid "For this purpose, it is wise to inform your users of the project before migrating the server. To involve them in the project, it may be useful to install the most common free software programs on their desktops prior to migration, which they will come across again after the migration to Debian; OpenOffice.org and the Mozilla suite are the best examples here."
-msgstr ""
+msgstr "Untuk tujuan ini, alangkah bijak menginformasikan pengguna proyek Anda sebelum memigrasikan server. Melibatkan mereka pada proyek, mungkin akan berguna untuk menginstall program perangkat lunak bebas pada desktop mereka sebelum migrasi, yang mana mereka akan kembali setelah migrasi ke Debian; OpenOffice.org dan Mozilla ialah contoh terbaik di sini."
 
 #. Tag: title
 #, no-c-format
 msgid "Network and Processes"
-msgstr ""
+msgstr "Jaringan dan Proses"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary><command>nmap</command></primary></indexterm> The <command>nmap</command> tool (in the package with the same name) will quickly identify Internet services hosted by a network connected machine without even requiring to log in to it. Simply call the following command on another machine connected to the same network:"
-msgstr ""
+msgstr "<indexterm><primary><command>nmap</command></primary><indexterm> Alat <command>nmap</command> (dalam paket dengan nama yang sama) akan mengidentifikasi secara cepat layanan Internet yang dihostkan oleh mesin jaringan terhubung tanpa perlu masuk ke dalamnya. Mudahnya panggil perintah berikut pada mesin yang terhubung pada jaringan yang sama:"
 
 #. Tag: screen
 #, no-c-format
@@ -156,27 +157,38 @@ msgid "\n"
 "\n"
 "Nmap done: 1 IP address (1 host up) scanned in 0.19 seconds</computeroutput>\n"
 ""
-msgstr ""
+msgstr "\n"
+"<computeroutput>$ </computeroutput><userinput>nmap mirlaine</userinput>\n"
+"<computeroutput>Starting Nmap 5.00 ( http://nmap.org ) at 2010-07-29 16:36 CET\n"
+"Interesting ports on mirlaine (192.168.1.99):\n"
+"Not shown: 1694 closed ports\n"
+"PORT    STATE SERVICE\n"
+"22/tcp  open  ssh\n"
+"79/tcp  open  finger\n"
+"111/tcp open  rpcbind\n"
+"\n"
+"Nmap done: 1 IP address (1 host up) scanned in 0.19 seconds</computeroutput>\n"
+""
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>ALTERNATIVE</emphasis> Use <command>netstat</command> to find the list of available services"
-msgstr ""
+msgstr "<emphasis>ALTERNATIF</emphasis> Gunakan <command>netstat</command> untuk mencari daftar service yang tersedia"
 
 #. Tag: para
 #, no-c-format
 msgid "On a Linux machine, the <command>netstat -tupan</command> command will show the list of active or pending TCP sessions, as well UDP ports on which running programs are listening. This facilitates identification of services offered on the network."
-msgstr ""
+msgstr "Pada mesin Linux, perintah <command>netstat -tupan</command> akan menampilkan daftar sesi TCP aktif maupun pending, juga port UDP program berjalan yang mendengarkan. Fasilitas ini mengidentifikasi layanan yang ditawarkan oleh jaringan."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>GOING FURTHER</emphasis> IPv6"
-msgstr ""
+msgstr "<emphasis>LEBIH JAUH</emphasis> IPv6"
 
 #. Tag: para
 #, no-c-format
 msgid "Some network commands may work either with IPv4 (the default usually) or with IPv6. This is especially the case with the <command>nmap</command> and <command>netstat</command> commands, but also others, such as <command>route</command> or <command>ip</command>. The convention is that this behavior is enabled by the <parameter>-6</parameter> command-line option."
-msgstr ""
+msgstr "Beberapa perintah jaringan mungkin bekerja baik itu IPv4 (biasanya sebagai bawaan) atau IPv6. Khususnya dalam hal perintah <command>nmap</command> dan <command>netstat</command>, tetapi juga yang lainnya, seperti <command>route</command> atau <command>ip</command>. Konvensi ini dapat diaktifkan dengan opsi baris perintah <parameter>-6</parameter>."
 
 #. Tag: para
 #, no-c-format
@@ -191,7 +203,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Backing up the Configuration"
-msgstr ""
+msgstr "Mem-back up Konfigurasi"
 
 #. Tag: para
 #, no-c-format
@@ -211,7 +223,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Database backups"
-msgstr ""
+msgstr "Backup basisdata"
 
 #. Tag: para
 #, no-c-format
@@ -286,7 +298,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Installing Debian"
-msgstr ""
+msgstr "Menginstall Debian"
 
 #. Tag: para
 #, no-c-format
@@ -296,7 +308,7 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>architecture</primary>"
-msgstr ""
+msgstr "<primary>arsitektur</primary>"
 
 #. Tag: para
 #, no-c-format
@@ -316,22 +328,22 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>HARDWARE</emphasis> Next-generation PC"
-msgstr ""
+msgstr "<emphasis>HARDWARE</emphasis> PC Generasi selanjutnya"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Itanium</primary>"
-msgstr ""
+msgstr "<primary>Itanium</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>amd64</primary>"
-msgstr ""
+msgstr "<primary>amd64</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ia64</primary>"
-msgstr ""
+msgstr "<primary>ia64</primary>"
 
 #. Tag: para
 #, no-c-format
@@ -346,127 +358,127 @@ msgstr ""
 #. Tag: entry
 #, no-c-format
 msgid "Operating System"
-msgstr ""
+msgstr "Sistem Operasi"
 
 #. Tag: entry
 #, no-c-format
 msgid "Architecture(s)"
-msgstr ""
+msgstr "Arsitektur"
 
 #. Tag: entry
 #, no-c-format
 msgid "DEC Unix (OSF/1)"
-msgstr ""
+msgstr "DEC Unix (OSF/1)"
 
 #. Tag: entry
 #, no-c-format
 msgid "alpha, mipsel"
-msgstr ""
+msgstr "alpha, mipsel"
 
 #. Tag: entry
 #, no-c-format
 msgid "HP Unix"
-msgstr ""
+msgstr "HP Unix"
 
 #. Tag: entry
 #, no-c-format
 msgid "hppa"
-msgstr ""
+msgstr "hppa"
 
 #. Tag: entry
 #, no-c-format
 msgid "IBM AIX"
-msgstr ""
+msgstr "IBM AIX"
 
 #. Tag: entry
 #, no-c-format
 msgid "powerpc"
-msgstr ""
+msgstr "powerpc"
 
 #. Tag: entry
 #, no-c-format
 msgid "Irix"
-msgstr ""
+msgstr "Irix"
 
 #. Tag: entry
 #, no-c-format
 msgid "mips"
-msgstr ""
+msgstr "mips"
 
 #. Tag: entry
 #, no-c-format
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #. Tag: entry
 #, no-c-format
 msgid "powerpc, m68k, i386, amd64"
-msgstr ""
+msgstr "powerpc, m68k, i386, amd64"
 
 #. Tag: entry
 #, no-c-format
 msgid "MVS"
-msgstr ""
+msgstr "MVS"
 
 #. Tag: entry
 #, no-c-format
 msgid "s390"
-msgstr ""
+msgstr "s390"
 
 #. Tag: entry
 #, no-c-format
 msgid "Solaris, SunOS"
-msgstr ""
+msgstr "Solaris, SunOS"
 
 #. Tag: entry
 #, no-c-format
 msgid "sparc, m68k, i386"
-msgstr ""
+msgstr "sparc, m68k, i386"
 
 #. Tag: entry
 #, no-c-format
 msgid "Ultrix"
-msgstr ""
+msgstr "Ultrix"
 
 #. Tag: entry
 #, no-c-format
 msgid "VMS"
-msgstr ""
+msgstr "VMS"
 
 #. Tag: entry
 #, no-c-format
 msgid "alpha"
-msgstr ""
+msgstr "alpha"
 
 #. Tag: entry
 #, no-c-format
 msgid "Windows NT"
-msgstr ""
+msgstr "Windows NT"
 
 #. Tag: entry
 #, no-c-format
 msgid "i386, alpha, mipsel"
-msgstr ""
+msgstr "i386, alpha, mipsel"
 
 #. Tag: entry
 #, no-c-format
 msgid "Windows XP / Windows Server 2008"
-msgstr ""
+msgstr "Windows XP / Windows Server 2008"
 
 #. Tag: entry
 #, no-c-format
 msgid "i386, ia64, amd64"
-msgstr ""
+msgstr "i386, ia64, amd64"
 
 #. Tag: entry
 #, no-c-format
 msgid "Windows Vista / Windows 7"
-msgstr ""
+msgstr "Windows Vista / Windows 7"
 
 #. Tag: entry
 #, no-c-format
 msgid "i386, amd64"
-msgstr ""
+msgstr "i386, amd64"
 
 #. Tag: title
 #, no-c-format
@@ -481,7 +493,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Install the selected services"
-msgstr ""
+msgstr "Install layanan terpilih"
 
 #. Tag: para
 #, no-c-format
