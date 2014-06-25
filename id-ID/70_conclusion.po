@@ -27,32 +27,32 @@ msgstr ""
 #. Tag: keyword
 #, no-c-format
 msgid "Future"
-msgstr ""
+msgstr "Masa Depan"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Improvements"
-msgstr ""
+msgstr "Perkembangan"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Opinions"
-msgstr ""
+msgstr "Pandangan"
 
 #. Tag: title
 #, no-c-format
 msgid "Conclusion: Debian's Future"
-msgstr ""
+msgstr "Kesimpulan : Masa Depan Debian"
 
 #. Tag: para
 #, no-c-format
 msgid "The story of Falcot Corp ends with this last chapter; but Debian lives on, and the future will certainly bring many interesting surprises."
-msgstr ""
+msgstr "Kisah tentang Falcot Corp berakhir tetapi Debian tetap hidup, terus berkembang dan akan memberikan beberapa kejutan."
 
 #. Tag: title
 #, no-c-format
 msgid "Upcoming Developments"
-msgstr ""
+msgstr "Pengembangan Selanjutnya"
 
 #. Tag: para
 #, no-c-format
@@ -61,7 +61,7 @@ msgid "Weeks (or months) before a new version of Debian is released, the Release
 =======
 msgid "Weeks (or months) before a new version of Debian is released, the Release Manager picks the codename for the next version. Now that Debian version 6.0 is out, the developers are already busy working on the next version, codenamed <emphasis role=\"distribution\">Wheezy</emphasis>…"
 >>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
-msgstr ""
+msgstr "Beberapa minggu (atau beberapa bulan) sebelum Debian versi terbaru dirilis, Manajer Rilis menentukan nama kode untuk rilis berikutnya. Sekarang Debian 6 telah selesai dirilis, pengembang sedang mengembangkan versi berikutnya dengan nama kode <emphasis role=\"distribution\">Wheezy</emphasis>"
 
 #. Tag: para
 #, no-c-format
@@ -93,7 +93,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Debian's Future"
-msgstr ""
+msgstr "Masa Depan Debian"
 
 #. Tag: para
 #, no-c-format
@@ -107,7 +107,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "The Debian user community will increase, and new contributors will join the project… including, maybe, you!"
-msgstr ""
+msgstr "Komunitas Pengguna Debian akan bertambah, dan pengembang-pengembang baru akan bergabung ke dalam proyek...  termasuk, mungkin Anda!"
 
 #. Tag: para
 #, no-c-format
@@ -140,7 +140,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Future of this Book"
-msgstr ""
+msgstr "Kelanjutan buku ini"
 
 #. Tag: para
 #, no-c-format
@@ -168,7 +168,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "See you soon!"
-msgstr ""
+msgstr "Sampai jumpa!"
 <<<<<<< HEAD
 =======
 
