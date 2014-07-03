@@ -80,7 +80,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Integration with Windows Machines"
-msgstr ""
+msgstr "Integrasi dengan Mesin Windows"
 
 #. Tag: para
 #, no-c-format
@@ -90,7 +90,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> Samba"
-msgstr ""
+msgstr "<emphasis>PERKAKAS</emphasis> Samba"
 
 #. Tag: indexterm
 #, no-c-format
@@ -109,7 +109,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Integration with Mac OS machines"
-msgstr ""
+msgstr "Integrasi dengan mesin Mac OS"
 
 <<<<<<< HEAD
 #. Tag: indexterm
@@ -130,7 +130,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "Mac OS machines provide, and are able to use, network services such as file servers and printer sharing. These services are published on the local network, which allows other machines to discover them and make use of them without any manual configuration, using the Bonjour implementation of the Zeroconf protocol suite. Debian includes another implementation, called Avahi, which provides the same functionality."
-msgstr ""
+msgstr "Mac OS tersedia dan dapat digunakan, layanan jaringan seperti file servers dan berbagi printer. Layanan tersebut berada di jaringan lokal, yang memungkinkan mesin lain menemukan dan menggunakannya tanpa konfigurasi manual, menggunkana Bonjour dari Zeroconf protocol suite. Debian menyertakan implementasi lainnya yang disebut Avahi dengan fungsionalitas yang sama."
 
 #. Tag: indexterm
 #, no-c-format
@@ -165,7 +165,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Integration with Other Linux/Unix Machines"
-msgstr ""
+msgstr "Integrasi dengan mesin Linux/Unix lainnya"
 
 #. Tag: para
 #, no-c-format
@@ -180,7 +180,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "How To Migrate"
-msgstr ""
+msgstr "Bagaimana Melakukan Migrasi
 
 #. Tag: indexterm
 #, no-c-format
@@ -199,7 +199,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Survey and Identify Services"
-msgstr ""
+msgstr "Survai dan Mengidentifikasi Layanan"
 
 #. Tag: para
 #, no-c-format
@@ -218,7 +218,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Network and Processes"
-msgstr ""
+msgstr "Jaringan dan Proses"
 
 #. Tag: para
 #, no-c-format
@@ -419,7 +419,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Installing Debian"
-msgstr ""
+msgstr "Memasang Debian"
 
 #. Tag: para
 #, no-c-format
@@ -460,7 +460,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>HARDWARE</emphasis> Next-generation PC"
-msgstr ""
+msgstr "<emphasis>PERANGKAT KERAS</emphasis> Next-generation PC"
 
 #. Tag: indexterm
 #, no-c-format
@@ -486,17 +486,17 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Matching operating system and architecture"
-msgstr ""
+msgstr "Mencocokkan sistem operasi dan arsitektur"
 
 #. Tag: entry
 #, no-c-format
 msgid "Operating System"
-msgstr ""
+msgstr "Sistem Operasi"
 
 #. Tag: entry
 #, no-c-format
 msgid "Architecture(s)"
-msgstr ""
+msgstr "Arsitektur"
 
 #. Tag: entry
 #, no-c-format
@@ -689,7 +689,7 @@ msgstr ""
 =======
 >>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 msgid "Installing and Configuring the Selected Services"
-msgstr ""
+msgstr "Memasang dan Mngkonfigurasi Layanan Terpilih"
 
 #. Tag: para
 #, no-c-format
@@ -699,7 +699,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Install the selected services"
-msgstr ""
+msgstr "Memasang Layanan Terpilih"
 
 #. Tag: para
 #, no-c-format

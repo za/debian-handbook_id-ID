@@ -41,7 +41,7 @@ msgid "Rebuild"
 <<<<<<< HEAD
 msgstr "Rebuild"
 =======
-msgstr ""
+msgstr "Bangun ulang"
 >>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 
 #. Tag: keyword
@@ -50,7 +50,7 @@ msgid "Source package"
 <<<<<<< HEAD
 msgstr "Source package"
 =======
-msgstr ""
+msgstr "Paket sumber"
 >>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 
 #. Tag: keyword
@@ -59,7 +59,7 @@ msgid "Archive"
 <<<<<<< HEAD
 msgstr "Archive"
 =======
-msgstr ""
+msgstr "Arsip"
 >>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 
 #. Tag: keyword
@@ -77,7 +77,7 @@ msgid "Debian Developer"
 <<<<<<< HEAD
 msgstr "Debian Developer"
 =======
-msgstr ""
+msgstr "Pengembang Debian"
 >>>>>>> 3c00e4cd8be4c57e266833a7341e2e5525b73cb5
 
 #. Tag: keyword
